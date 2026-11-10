@@ -38,6 +38,18 @@ def test_record_save_and_replay(tmp_path):
     assert Recorder(tmp_path / "r.json").ask(REQ) == {"ranking": ["A"]}   # keyless replay
 
 
+def test_prune_keeps_only_what_the_run_asked_for(tmp_path):
+    other = {**REQ, "user": "an older question"}
+    rec = Recorder(tmp_path / "r.json", client=object(), call=lambda c, r: ({"ranking": [r["user"]]}, "m"))
+    rec.ask(REQ)
+    rec.ask(other)
+    rec.save()
+    fresh = Recorder(tmp_path / "r.json")
+    fresh.ask(REQ)
+    fresh.save(prune=True)
+    assert set(Recorder(tmp_path / "r.json").entries) == {request_key(REQ)}
+
+
 def test_save_without_news_writes_nothing(tmp_path):
     Recorder(tmp_path / "r.json").save()
     assert not (tmp_path / "r.json").exists()

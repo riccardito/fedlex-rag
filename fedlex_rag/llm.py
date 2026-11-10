@@ -92,9 +92,11 @@ class Recorder:
         if path.exists():
             self.entries = json.loads(path.read_text(encoding="utf-8")).get("entries", {})
         self.added = 0
+        self.used: set[str] = set()
 
     def ask(self, request: dict) -> dict:
         key = request_key(request)
+        self.used.add(key)
         if key in self.entries:
             return self.entries[key]["output"]
         if self.client is None:
@@ -105,7 +107,13 @@ class Recorder:
         self.added += 1
         return output
 
-    def save(self) -> None:
+    def save(self, prune: bool = False) -> None:
+        """Write the recordings; `prune` (a full live eval) keeps only the ones this run asked for."""
+        if prune:
+            stale = set(self.entries) - self.used
+            for key in stale:
+                del self.entries[key]
+            self.added += len(stale)
         if not self.added:
             return
         body = {"model": MODEL, "effort": EFFORT,

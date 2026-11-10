@@ -62,18 +62,21 @@ def cmd_ask(args) -> int:
 def cmd_eval(args) -> int:
     articles, questions = load_articles(), load_questions()
     pipeline, embedder, recorder = _pipeline(articles, args.live)
+    complete = False
     try:
         rows = [evaluate(BM25(articles), questions, args.k), evaluate(pipeline.dense, questions, args.k)]
         if not args.search_only:
             rows.append(evaluate(pipeline, questions, args.k))
             answers = evaluate_answers(pipeline, questions)
             ceiling = pool_recall(pipeline, questions)
+        complete = True
     except MissingRecording as exc:
         print(f"{exc}", file=sys.stderr)
         return 2
     finally:
         embedder.save()
-        recorder.save()
+        # prune only after a run that asked for everything: an aborted run never deletes a recording
+        recorder.save(prune=args.live and complete and not args.search_only)
     print(f"{len(questions)} questions ({rows[0].n} answerable), {len(articles)} articles"
           + ("" if args.search_only else f"; rerank and answer by {MODEL}, effort {EFFORT}") + "\n")
     print(f"{'retrieval':18} {'Recall@' + str(args.k):>9} {'hit@1':>7} {'MRR@10':>7}  misses")
