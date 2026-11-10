@@ -14,3 +14,63 @@
 {"id": "q014", "question": "Wie finde ich heraus, welche Daten eine Firma über mich gespeichert hat?", "expected": ["DSG Art. 25"]}
 {"id": "q015", "question": "Muss ein Unternehmen ein Datenleck den Behörden melden?", "expected": ["DSG Art. 24"]}
 {"id": "q016", "question": "Darf eine Schweizer Firma Kundendaten an einen Server in den USA schicken?", "expected": ["DSG Art. 16"]}
+{"id": "q017", "question": "Ich habe in meinem privaten Adressbuch und Fotoalbum Daten von Freunden gespeichert. Muss ich mich dabei an Datenschutzvorschriften halten?", "expected": ["DSG Art. 2"]}
+{"id": "q018", "question": "Ein Onlineshop mit Sitz in Irland verkauft an Kunden hierzulande. Müssen sich solche Anbieter an unser Datenschutzgesetz halten?", "expected": ["DSG Art. 3"]}
+{"id": "q019", "question": "Unser Verein lässt die Mitgliederliste von einem externen Cloud-Anbieter verwalten. Worauf müssen wir dabei achten?", "expected": ["DSG Art. 9"]}
+{"id": "q020", "question": "Muss meine kleine Firma mit 20 Angestellten genau aufschreiben, welche Kundendaten sie zu welchem Zweck nutzt?", "expected": ["DSG Art. 12"]}
+{"id": "q021", "question": "Ich buche eine Reise bei einem Anbieter in Thailand. Darf mein Reisebüro dafür meine Passdaten dorthin schicken?", "expected": ["DSG Art. 17"]}
+{"id": "q022", "question": "Eine Firma hat meine Adresse von einem Adresshändler gekauft. Bis wann muss sie mir das mitteilen?", "expected": ["DSG Art. 19"]}
+{"id": "q023", "question": "Mein Kreditantrag wurde von einem Computerprogramm abgelehnt, ohne dass ein Mensch draufgeschaut hat. Kann ich eine Überprüfung durch einen Menschen verlangen?", "expected": ["DSG Art. 21"]}
+{"id": "q024", "question": "Meine Bank will mir nicht sagen, welche Daten sie über mich hat. Aus welchen Gründen darf sie das ablehnen?", "expected": ["DSG Art. 26"]}
+{"id": "q025", "question": "Ich möchte von meinem Streaming-Dienst eine Kopie all meiner Daten in einem üblichen Dateiformat, um zu einem anderen Anbieter zu wechseln. Geht das, und kostet es etwas?", "expected": ["DSG Art. 28"]}
+{"id": "q026", "question": "Eine Auskunftei hat bei mir eine falsche Adresse gespeichert. Kann ich verlangen, dass das korrigiert wird?", "expected": ["DSG Art. 32"]}
+{"id": "q027", "question": "Bis zu welchem Betrag kann eine Firma gebüsst werden, wenn sie mir absichtlich verschweigt, was sie mit meinen Daten macht?", "expected": ["DSG Art. 60"]}
+{"id": "q028", "question": "Mein Arbeitgeber hat Kundendaten einem Dienstleister jenseits der Grenze überlassen, obwohl das nicht erlaubt war. Droht ihm eine Strafe?", "expected": ["DSG Art. 61"]}
+{"id": "q029", "question": "Eine Arzthelferin erzählt im Bekanntenkreis von der Krankheit eines Patienten. Macht sie sich strafbar?", "expected": ["DSG Art. 62"]}
+{"id": "q030", "question": "Eine Bundesbehörde will meine Angaben an eine Firma weitergeben, und ich habe dafür einen guten Grund. Kann ich mich dagegen wehren?", "expected": ["DSG Art. 37"]}
+{"id": "q031", "question": "Ein grosser Onlinehändler aus dem Ausland sammelt systematisch Daten von Schweizer Kunden. Muss er hier jemanden benennen, an den ich mich wenden kann?", "expected": ["DSG Art. 14"]}
+{"id": "q032", "question": "Mein Chef hat mir letztes Jahr zum Fest einen Bonus gezahlt. Kann ich den dieses Jahr wieder verlangen?", "expected": ["OR Art. 322d"]}
+{"id": "q033", "question": "An welchem Tag muss mein Gehalt spätestens auf dem Konto sein, wenn im Vertrag nichts dazu steht?", "expected": ["OR Art. 323"]}
+{"id": "q034", "question": "Meine Firma hat keine Aufträge und schickt mich nach Hause. Muss sie mir trotzdem den Lohn zahlen?", "expected": ["OR Art. 324"]}
+{"id": "q035", "question": "Ich fahre mit meinem eigenen Auto zu Kunden, und mein Chef ist einverstanden. Wer zahlt Benzin und Verschleiss?", "expected": ["OR Art. 327b"]}
+{"id": "q036", "question": "Ich war letztes Jahr zwei Wochen krank. Darf mein Chef mir deswegen Urlaubstage streichen?", "expected": ["OR Art. 329b"]}
+{"id": "q037", "question": "Ich möchte meine Ferien gern in einzelnen Tagen übers Jahr verteilen. Muss ich irgendwann mindestens ein paar Wochen am Stück frei nehmen?", "expected": ["OR Art. 329c"]}
+{"id": "q038", "question": "Ich erwarte mein erstes Kind. Wie viele Wochen darf ich nach der Geburt bei der Arbeit fehlen?", "expected": ["OR Art. 329f"]}
+{"id": "q039", "question": "Meine Frau bekommt nächsten Monat ein Baby. Wie viele freie Tage stehen mir als Vater zu?", "expected": ["OR Art. 329g"]}
+{"id": "q040", "question": "Bis wann muss mir mein Chef nach dem Stellenantritt die wichtigsten Bedingungen schriftlich mitteilen?", "expected": ["OR Art. 330b"]}
+{"id": "q041", "question": "Mein Chef hat mich nur entlassen, weil ich eine Lohnforderung gestellt habe. Wie viel Geld kann mir das Gericht als Wiedergutmachung höchstens zusprechen?", "expected": ["OR Art. 336a"]}
+{"id": "q042", "question": "Unter welchen Umständen darf mir die Firma überhaupt verbieten, nach dem Austritt zu einem Mitbewerber zu wechseln?", "expected": ["OR Art. 340"]}
+{"id": "q043", "question": "Ich habe aus Versehen den Firmenlaptop fallen lassen. Muss ich den Schaden bezahlen?", "expected": ["OR Art. 321e"]}
+{"id": "q044", "question": "Mein Vertrag lief nur ein Jahr, doch ich komme danach weiter jeden Tag ins Büro, ohne dass jemand etwas sagt. Was für ein Vertrag gilt dann?", "expected": ["OR Art. 334"]}
+{"id": "q045", "question": "Meine Mutter ist nach einem Sturz pflegebedürftig. Wie viele Tage darf ich bezahlt fehlen, um mich um sie zu kümmern?", "expected": ["OR Art. 329h"]}
+{"id": "q046", "question": "Darf ich neben meiner Vollzeitstelle abends für eine andere Firma gegen Bezahlung arbeiten?", "expected": ["OR Art. 321a"]}
+{"id": "q047", "question": "Kann ich mir bei der Grundversicherung die Krankenkasse frei aussuchen, oder wird sie mir zugeteilt?", "expected": ["KVG Art. 4"]}
+{"id": "q048", "question": "Ich habe nach meinem Umzug in die Schweiz zu lange gewartet, bevor ich mich bei einer Krankenkasse gemeldet habe. Muss ich dafür extra zahlen?", "expected": ["KVG Art. 5"]}
+{"id": "q049", "question": "Zahlt die Grundversicherung eine Darmspiegelung zur Krebsfrüherkennung?", "expected": ["KVG Art. 26"]}
+{"id": "q050", "question": "Wer bezahlt die Hebamme und die Stillberatung nach der Geburt meines Kindes?", "expected": ["KVG Art. 29"]}
+{"id": "q051", "question": "Meine Zähne müssen aufwendig saniert werden. Übernimmt die Grundversicherung das?", "expected": ["KVG Art. 31"]}
+{"id": "q052", "question": "Ich hatte in den Ferien in Spanien einen Notfall. Übernimmt die Grundversicherung die Spitalkosten im Ausland?", "expected": ["KVG Art. 34"]}
+{"id": "q053", "question": "Darf ich mich für eine Operation in einem Spital in einem anderen Kanton behandeln lassen?", "expected": ["KVG Art. 41"]}
+{"id": "q054", "question": "Muss ich die Arztrechnung zuerst selbst bezahlen und bekomme das Geld nachher von der Kasse zurück, oder zahlt die Kasse direkt?", "expected": ["KVG Art. 42"]}
+{"id": "q055", "question": "Darf mir die Apotheke statt des verschriebenen Medikaments ein günstigeres Nachahmerprodukt mitgeben?", "expected": ["KVG Art. 52a"]}
+{"id": "q056", "question": "Muss ich für mein dreijähriges Kind genauso viel Krankenkassenbeitrag zahlen wie ein Erwachsener?", "expected": ["KVG Art. 61"]}
+{"id": "q057", "question": "Ich möchte weniger bezahlen und bin bereit, bei Beschwerden immer zuerst zu meinem Hausarzt zu gehen. Gibt es dafür einen Rabatt?", "expected": ["KVG Art. 62"]}
+{"id": "q058", "question": "Ich habe mehrere Rechnungen der Krankenkasse nicht bezahlt. Wie oft kann sie mich pro Jahr betreiben?", "expected": ["KVG Art. 64a"]}
+{"id": "q059", "question": "Bis zu welchem Alter kann ich eine Krankentaggeldversicherung abschliessen, die mir bei Arbeitsunfähigkeit Lohnersatz zahlt?", "expected": ["KVG Art. 67"]}
+{"id": "q060", "question": "Zahlt die Grundversicherung etwas an einen Kuraufenthalt in einem Thermalbad, wenn mein Arzt ihn verordnet?", "expected": ["KVG Art. 25"]}
+{"id": "q061", "question": "Ich habe mir beim Skifahren das Bein gebrochen. Muss die Krankenkasse das bezahlen?", "expected": ["KVG Art. 28"]}
+{"id": "q062", "question": "Wie viele Stunden muss ich zwischen Feierabend und dem nächsten Arbeitsbeginn mindestens frei haben?", "expected": []}
+{"id": "q063", "question": "Bekomme ich einen Lohnzuschlag, wenn ich regelmässig nachts arbeite?", "expected": []}
+{"id": "q064", "question": "Wie viele Stunden pro Woche darf mich mein Chef höchstens arbeiten lassen?", "expected": []}
+{"id": "q065", "question": "Wie viel Taggeld bekomme ich von der Unfallversicherung, wenn ich bei der Arbeit stürze und wochenlang ausfalle?", "expected": []}
+{"id": "q066", "question": "Ab welchem Alter bekomme ich meine AHV-Rente, und wie hoch fällt sie ungefähr aus?", "expected": []}
+{"id": "q067", "question": "Wie hoch darf der Vermieter die Kaution für meine neue Wohnung ansetzen und wann bekomme ich sie zurück?", "expected": []}
+{"id": "q068", "question": "Wie lange ist die Kündigungsfrist, wenn ich meine Mietwohnung verlassen will?", "expected": []}
+{"id": "q069", "question": "Wie hoch ist die Busse, wenn ich mit dem Auto 20 km/h zu schnell gefahren bin?", "expected": []}
+{"id": "q070", "question": "Mein neues Handy ist nach drei Monaten kaputt gegangen. Habe ich Anspruch auf Garantie oder Ersatz?", "expected": []}
+{"id": "q071", "question": "Darf ich meine Kinder enterben, und wie viel steht ihnen mindestens zu?", "expected": []}
+{"id": "q072", "question": "Wie wird bei einer Scheidung das Vermögen zwischen mir und meinem Mann aufgeteilt?", "expected": []}
+{"id": "q073", "question": "Kann ich meine Krankenkassenprämien von den Steuern abziehen?", "expected": []}
+{"id": "q074", "question": "Gilt die europäische DSGVO auch für meinen Onlineshop in Zürich?", "expected": []}
+{"id": "q075", "question": "Wie lange bekomme ich Arbeitslosentaggeld, nachdem mir gekündigt wurde?", "expected": []}
+{"id": "q076", "question": "Wie viel Prozent meines Lohns bekomme ich als Entschädigung während des Mutterschaftsurlaubs?", "expected": []}

@@ -1,0 +1,2991 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "note": "Recorded Claude answers, keyed by the SHA-256 of each request. `make eval` replays them; `--live` records new ones.",
+ "entries": {
+  "006f3a3b85029ae13596d18f14bb38de52a1c54e189a5147780d91aa5946f6a4": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "OR Art. 329f",
+     "OR Art. 329g",
+     "OR Art. 336c",
+     "OR Art. 329gbis",
+     "OR Art. 329b",
+     "KVG Art. 74",
+     "OR Art. 324a",
+     "OR Art. 328a",
+     "OR Art. 329j",
+     "OR Art. 329i",
+     "OR Art. 335c",
+     "OR Art. 329h",
+     "OR Art. 329a",
+     "OR Art. 329e",
+     "OR Art. 345a",
+     "OR Art. 333",
+     "OR Art. 335d",
+     "OR Art. 335g",
+     "OR Art. 335i",
+     "OR Art. 353"
+    ]
+   }
+  },
+  "022c02c76bc4eda0d6892f28e84e76bb0f91fd359d9faf4a117f4ac7edae87bb": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Ja, aber nur unter Voraussetzungen: Personendaten dürfen ins Ausland bekanntgegeben werden, wenn der Bundesrat festgestellt hat, dass der betreffende Staat einen angemessenen Schutz gewährleistet; ob das für die USA zutrifft, lässt sich den vorliegenden Artikeln nicht entnehmen. Fehlt ein solcher Entscheid, braucht es geeignete Garantien, etwa vom EDÖB genehmigte oder anerkannte Standarddatenschutzklauseln, dem EDÖB vorgängig mitgeteilte Vertragsklauseln oder genehmigte verbindliche unternehmensinterne Datenschutzvorschriften (DSG Art. 16). Das Gesetz gilt für die Datenbearbeitung durch private Personen und damit auch für Firmen (DSG Art. 2). Wer vorsätzlich gegen diese Regeln verstösst und keine Ausnahme nach Art. 17 geltend machen kann (dieser Artikel liegt hier nicht vor), kann auf Antrag mit einer Busse bis zu 250 000 Franken bestraft werden (DSG Art. 61).",
+    "citations": [
+     "DSG Art. 16",
+     "DSG Art. 2",
+     "DSG Art. 61"
+    ]
+   }
+  },
+  "02f2ecb94e2fcc1fb06016f2ad853d67b2d0e6fc2ecad7ff24678057a2867a33": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Nein, für Kinder muss der Versicherer eine tiefere Prämie festlegen als für Erwachsene; die Kinderprämie muss sogar tiefer sein als diejenige für junge Erwachsene. Die Prämien für Ihr Kind schulden bis zu dessen Volljährigkeit ausschliesslich die Eltern, und zwar grundsätzlich gemeinsam (solidarisch). Bei unteren und mittleren Einkommen verbilligen die Kantone die Prämien von Kindern zudem um mindestens 80 Prozent. Ausserdem wird für Kinder keine Franchise erhoben, und es gilt nur die Hälfte des Höchstbetrags des Selbstbehalts.",
+    "citations": [
+     "KVG Art. 61",
+     "KVG Art. 61a",
+     "KVG Art. 65",
+     "KVG Art. 64"
+    ]
+   }
+  },
+  "031686f1b02dea3f86bd1b17c8004511b619ac52021b41b05bdec17db34a19c3": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Ja, für eine stationäre Behandlung können Sie frei unter den Spitälern wählen, die auf der Spitalliste Ihres Wohnkantons oder des Standortkantons aufgeführt sind; Versicherer und Wohnkanton übernehmen die Kosten anteilsmässig, aber höchstens nach dem Tarif, der in einem Listenspital Ihres Wohnkantons für diese Behandlung gilt – eine allfällige Differenz müssen Sie unter Umständen selbst tragen. Geschieht die Behandlung aus medizinischen Gründen (Notfall oder die Leistung wird in keinem Listenspital Ihres Wohnkantons angeboten) in einem Spital, das nicht auf der Liste Ihres Wohnkantons steht, werden die Kosten anteilsmässig übernommen; ausser im Notfall braucht es dafür eine Bewilligung des Wohnkantons. Ein ausserkantonales Listenspital muss Sie allerdings nur im Rahmen seiner Leistungsaufträge und in Notfällen aufnehmen. Wenn Sie ein Versicherungsmodell mit eingeschränkter Spitalwahl gewählt haben, kann Ihr Wahlrecht zudem beschränkt sein.",
+    "citations": [
+     "KVG Art. 41",
+     "KVG Art. 41a",
+     "KVG Art. 49a"
+    ]
+   }
+  },
+  "03a360dc547566bc1b4f9b52d0ed04b0ca2f031d7ad2f97c62579d017f8bbfaf": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Als rechtlicher Vater des Kindes haben Sie als Arbeitnehmer Anspruch auf zwei Wochen Urlaub des andern Elternteils (Vaterschaftsurlaub). Diesen müssen Sie innert sechs Monaten nach der Geburt beziehen, und zwar wahlweise am Stück, wochenweise oder tageweise. Ihre Ferien dürfen wegen dieses Urlaubs nicht gekürzt werden. Kündigt Ihnen der Arbeitgeber, bevor Sie den Urlaub bezogen haben, verlängert sich die Kündigungsfrist um die noch nicht bezogenen Urlaubstage.",
+    "citations": [
+     "OR Art. 329g",
+     "OR Art. 329b",
+     "OR Art. 335c"
+    ]
+   }
+  },
+  "055d9f1130540bfc0107b6d1c9b6c7b3768830026d4b98ec8b0c61343876b684": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Ja. Wenn die Firma Ihre Arbeit nicht annimmt, also mit der Annahme der Arbeitsleistung in Verzug kommt, muss sie den Lohn weiterzahlen, und Sie müssen die ausgefallene Zeit nicht nacharbeiten. Sie müssen sich aber anrechnen lassen, was Sie dadurch sparen, was Sie mit anderer Arbeit verdienen oder was Sie absichtlich nicht verdienen, obwohl Sie es könnten. Diese Regel ist zwingend: Ein Vertrag, ein Normalarbeitsvertrag oder ein Gesamtarbeitsvertrag darf nicht zu Ihren Ungunsten davon abweichen, sonst ist die Abweichung nichtig.",
+    "citations": [
+     "OR Art. 324",
+     "OR Art. 362"
+    ]
+   }
+  },
+  "05b1192ed979197a1434879985d93e7f485797a3ddfc95b510d4d0a36e330fb6": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": false,
+    "answer": "Die vorliegenden Artikel regeln nicht, ob es eine Prämienvergünstigung gibt, wenn Sie sich verpflichten, immer zuerst Ihren Hausarzt aufzusuchen.",
+    "citations": []
+   }
+  },
+  "05ba5e8f73be1ba0bfe6614ef183c9dd7e8169c7f4939c828c7ba65c4a9ad38d": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "KVG Art. 65",
+     "KVG Art. 61",
+     "KVG Art. 66",
+     "KVG Art. 65a",
+     "KVG Art. 66a",
+     "KVG Art. 62",
+     "KVG Art. 64",
+     "KVG Art. 82",
+     "KVG Art. 76",
+     "KVG Art. 64a",
+     "KVG Art. 7",
+     "KVG Art. 63",
+     "KVG Art. 20",
+     "KVG Art. 1",
+     "KVG Art. 102",
+     "KVG Art. 98",
+     "KVG Art. 99",
+     "KVG Art. 49a",
+     "KVG Art. 52a",
+     "OR Art. 339d"
+    ]
+   }
+  },
+  "06255aa7eb3ba522ecc93d0cb6654a6facaf14317d67e6fdbcc731a9571c8668": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "KVG Art. 4",
+     "KVG Art. 6a",
+     "KVG Art. 7",
+     "KVG Art. 4a",
+     "KVG Art. 64a",
+     "KVG Art. 41",
+     "KVG Art. 1a",
+     "KVG Art. 70",
+     "KVG Art. 102",
+     "KVG Art. 98",
+     "KVG Art. 99",
+     "KVG Art. 64",
+     "KVG Art. 71",
+     "KVG Art. 105a",
+     "KVG Art. 10",
+     "KVG Art. 57",
+     "KVG Art. 82",
+     "KVG Art. 27",
+     "DSG Art. 25",
+     "OR Art. 331e"
+    ]
+   }
+  },
+  "066f7379d190a92b4b577cb18f28a54fdc72764818b27d368245fa416a37e87f": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "OR Art. 331e",
+     "OR Art. 331d",
+     "KVG Art. 66a",
+     "KVG Art. 4a",
+     "KVG Art. 83",
+     "KVG Art. 67",
+     "OR Art. 339b",
+     "OR Art. 339c",
+     "OR Art. 331c",
+     "KVG Art. 16a",
+     "KVG Art. 16",
+     "KVG Art. 61",
+     "KVG Art. 65",
+     "KVG Art. 64",
+     "KVG Art. 72",
+     "KVG Art. 73",
+     "KVG Art. 69",
+     "KVG Art. 3",
+     "KVG Art. 58f",
+     "KVG Art. 58g"
+    ]
+   }
+  },
+  "0889e674a88c0cfdbcd5900bf339c9eec0a0e132dc63592a5056b17850754380": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "KVG Art. 65",
+     "KVG Art. 66a",
+     "KVG Art. 64a",
+     "KVG Art. 82",
+     "KVG Art. 18",
+     "KVG Art. 62",
+     "KVG Art. 61",
+     "KVG Art. 7",
+     "KVG Art. 61a",
+     "KVG Art. 61b",
+     "KVG Art. 41",
+     "KVG Art. 76",
+     "KVG Art. 73",
+     "KVG Art. 77",
+     "KVG Art. 10",
+     "KVG Art. 49a",
+     "KVG Art. 72",
+     "KVG Art. 47",
+     "KVG Art. 99",
+     "OR Art. 329b"
+    ]
+   }
+  },
+  "0a1dcacaa1e447a092a3eea1d557307a7894b1b3097f3fe236624201403a6488": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "DSG Art. 26",
+     "DSG Art. 28",
+     "DSG Art. 19",
+     "DSG Art. 29",
+     "DSG Art. 20",
+     "DSG Art. 15",
+     "DSG Art. 12",
+     "DSG Art. 24",
+     "OR Art. 328b",
+     "DSG Art. 31",
+     "DSG Art. 17",
+     "DSG Art. 16",
+     "DSG Art. 62",
+     "DSG Art. 54",
+     "OR Art. 322a",
+     "KVG Art. 59a",
+     "KVG Art. 21",
+     "KVG Art. 23",
+     "KVG Art. 47b",
+     "KVG Art. 47a"
+    ]
+   }
+  },
+  "0a5088d72a99c057233ab6fa373f8a95f7818f6c400244366482f64a02121d34": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "DSG Art. 26",
+     "DSG Art. 29",
+     "DSG Art. 20",
+     "DSG Art. 24",
+     "DSG Art. 31",
+     "DSG Art. 32",
+     "DSG Art. 6",
+     "DSG Art. 49",
+     "DSG Art. 36",
+     "DSG Art. 37",
+     "DSG Art. 34",
+     "DSG Art. 17",
+     "DSG Art. 16",
+     "DSG Art. 39",
+     "DSG Art. 38",
+     "OR Art. 328b",
+     "KVG Art. 21",
+     "KVG Art. 59a",
+     "KVG Art. 47b",
+     "KVG Art. 105a"
+    ]
+   }
+  },
+  "0a930516406641bdb4b6b131287fdae53c94c4e3ab6890ae034907836a15c8eb": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "DSG Art. 14",
+     "DSG Art. 10",
+     "DSG Art. 2",
+     "DSG Art. 19",
+     "DSG Art. 25",
+     "DSG Art. 58",
+     "DSG Art. 16",
+     "DSG Art. 17",
+     "DSG Art. 6",
+     "DSG Art. 28",
+     "DSG Art. 26",
+     "DSG Art. 20",
+     "DSG Art. 24",
+     "DSG Art. 18",
+     "DSG Art. 54",
+     "DSG Art. 41",
+     "KVG Art. 47b",
+     "KVG Art. 21",
+     "KVG Art. 105a",
+     "OR Art. 348"
+    ]
+   }
+  },
+  "0d9506a5b83c560b0c1a5c76af1ed1cb66f9cf71ccb526cf46aa080a2601cef2": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "DSG Art. 61",
+     "DSG Art. 9",
+     "DSG Art. 62",
+     "DSG Art. 60",
+     "DSG Art. 30",
+     "DSG Art. 18",
+     "DSG Art. 31",
+     "DSG Art. 24",
+     "DSG Art. 7",
+     "OR Art. 328b",
+     "DSG Art. 36",
+     "DSG Art. 20",
+     "DSG Art. 26",
+     "DSG Art. 37",
+     "DSG Art. 29",
+     "KVG Art. 47b",
+     "OR Art. 340b",
+     "OR Art. 340",
+     "OR Art. 348",
+     "OR Art. 349"
+    ]
+   }
+  },
+  "116b897aee1ce74bab09519d964b029a0695804a4dbdca158c9cc7b6dcc04300": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": false,
+    "answer": "Die vorliegenden Artikel regeln nicht, wie hoch das Taggeld der Unfallversicherung bei einem Arbeitsunfall ist.",
+    "citations": []
+   }
+  },
+  "1240bc8e1644c1581ff7b2d08e15dbada41d844407b194cc786d4cdc7833042d": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Wenn eine Firma Ihre Daten nicht bei Ihnen selbst, sondern zum Beispiel bei einem Adresshändler beschafft, muss sie Sie spätestens einen Monat nach Erhalt der Daten informieren. Gibt sie Ihre Daten vor Ablauf dieses Monats an andere weiter, muss sie Sie spätestens im Zeitpunkt dieser Weitergabe informieren. Mitteilen muss sie Ihnen mindestens, wer sie ist und wie man sie erreicht, zu welchem Zweck sie die Daten bearbeitet, gegebenenfalls an wen die Daten weitergegeben werden und welche Kategorien von Daten sie bearbeitet. Werden die Daten ins Ausland weitergegeben, muss sie Ihnen zudem den betreffenden Staat nennen.",
+    "citations": [
+     "DSG Art. 19"
+    ]
+   }
+  },
+  "1391e37132eba043bbb50d0edff64b425e9de6a5b4bd76b58dc3877dfe4cf371": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Ja, eine Strafe ist möglich: Wer vorsätzlich Personendaten unter Verstoss gegen Artikel 16 Absätze 1 und 2 ins Ausland bekanntgibt, ohne dass die Voraussetzungen nach Artikel 17 erfüllt sind, wird mit Busse bis zu 250 000 Franken bestraft. Dasselbe gilt, wenn die Datenbearbeitung einem Auftragsbearbeiter übergeben wird, ohne dass die Voraussetzungen nach Artikel 9 erfüllt sind. Diese verlangen unter anderem, dass der Dienstleister die Daten nur so bearbeitet, wie es der Verantwortliche selbst dürfte, und dass er die Datensicherheit gewährleisten kann. Bestraft wird nur auf Antrag und nur bei Vorsatz; was Artikel 16 und 17 im Einzelnen erlauben, geht aus den vorliegenden Artikeln nicht hervor.",
+    "citations": [
+     "DSG Art. 61",
+     "DSG Art. 9"
+    ]
+   }
+  },
+  "1578d6007fb87a925e82777e38ff842204b3aa70321fda55abb3ebbbbc08499b": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "OR Art. 329h",
+     "OR Art. 329i",
+     "OR Art. 329b",
+     "OR Art. 336c",
+     "OR Art. 328a",
+     "KVG Art. 25a",
+     "OR Art. 329g",
+     "OR Art. 329gbis",
+     "OR Art. 329f",
+     "KVG Art. 72",
+     "OR Art. 338",
+     "KVG Art. 74",
+     "KVG Art. 29",
+     "KVG Art. 49",
+     "KVG Art. 58h",
+     "KVG Art. 54",
+     "KVG Art. 54b",
+     "KVG Art. 47",
+     "KVG Art. 47a",
+     "KVG Art. 64a"
+    ]
+   }
+  },
+  "18158ff0d9d4dceb57f8c79747e0976caa856881f55dca422fe3e684e58d41e8": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "OR Art. 321e",
+     "OR Art. 352a",
+     "OR Art. 327",
+     "OR Art. 330",
+     "OR Art. 348a",
+     "OR Art. 337b",
+     "OR Art. 337d",
+     "OR Art. 328",
+     "OR Art. 332",
+     "OR Art. 337c",
+     "OR Art. 337a",
+     "OR Art. 338a",
+     "OR Art. 331",
+     "DSG Art. 24",
+     "KVG Art. 10",
+     "DSG Art. 20",
+     "KVG Art. 42",
+     "KVG Art. 59",
+     "KVG Art. 47b",
+     "KVG Art. 47a"
+    ]
+   }
+  },
+  "1eeaee0e7e6c2413275f71a4d7ff34813e3660b020fa4c665326943d8c48bb2f": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "DSG Art. 16",
+     "DSG Art. 61",
+     "DSG Art. 2",
+     "DSG Art. 14",
+     "DSG Art. 24",
+     "DSG Art. 20",
+     "DSG Art. 58",
+     "DSG Art. 28",
+     "DSG Art. 26",
+     "DSG Art. 54",
+     "DSG Art. 41",
+     "KVG Art. 84a",
+     "OR Art. 348",
+     "KVG Art. 47b",
+     "KVG Art. 21",
+     "KVG Art. 59a",
+     "KVG Art. 42",
+     "KVG Art. 57",
+     "KVG Art. 6a",
+     "OR Art. 336"
+    ]
+   }
+  },
+  "1f462d7e9c5ee877c5dcee6a897acaa9b1feb9c94e72949a6666f0976d9e4357": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Ja, grundsätzlich schon: Bei einer Entscheidung, die ausschliesslich automatisiert getroffen wird und Sie erheblich beeinträchtigt, muss der Verantwortliche Sie darüber informieren. Sie können dann Ihren Standpunkt darlegen und verlangen, dass die Entscheidung von einem Menschen überprüft wird. Die Ausnahme für Vertragsabschlüsse gilt nur, wenn Ihrem Begehren stattgegeben wird, also nicht bei einer Ablehnung. Kein solcher Anspruch besteht allerdings, wenn Sie ausdrücklich eingewilligt haben, dass die Entscheidung automatisiert erfolgt.",
+    "citations": [
+     "DSG Art. 21"
+    ]
+   }
+  },
+  "1f4bf6d26a55d607e7426bee1f4504f83ff4a8c597b4e9b81f98bac20cfc0b91": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "OR Art. 334",
+     "OR Art. 320",
+     "OR Art. 335c",
+     "OR Art. 335a",
+     "OR Art. 330b",
+     "OR Art. 336c",
+     "OR Art. 347a",
+     "OR Art. 321",
+     "OR Art. 360",
+     "OR Art. 337d",
+     "OR Art. 336a",
+     "OR Art. 336b",
+     "OR Art. 333",
+     "OR Art. 342",
+     "OR Art. 344a",
+     "OR Art. 346",
+     "OR Art. 356c",
+     "OR Art. 345",
+     "OR Art. 345a",
+     "OR Art. 357a"
+    ]
+   }
+  },
+  "2187378b3a68e7ad8cc28562fae9e30d51a3630cc6a6e872b29da99b8c8307b5": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "OR Art. 329f",
+     "OR Art. 324b",
+     "OR Art. 324a",
+     "OR Art. 336c",
+     "OR Art. 329b",
+     "OR Art. 329gbis",
+     "OR Art. 329g",
+     "OR Art. 329i",
+     "KVG Art. 29",
+     "OR Art. 329d",
+     "OR Art. 329h",
+     "OR Art. 349c",
+     "OR Art. 336a",
+     "OR Art. 337c",
+     "OR Art. 339c",
+     "OR Art. 337d",
+     "OR Art. 339b",
+     "OR Art. 339d",
+     "OR Art. 336b",
+     "OR Art. 350"
+    ]
+   }
+  },
+  "22e36c1fb239e275063abff02d0165c241efd986a3f1b4424c2317c25375be22": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "OR Art. 340",
+     "OR Art. 340a",
+     "OR Art. 340c",
+     "OR Art. 340b",
+     "OR Art. 356a",
+     "OR Art. 341",
+     "OR Art. 332",
+     "OR Art. 328",
+     "OR Art. 337",
+     "OR Art. 337d",
+     "OR Art. 333",
+     "OR Art. 336",
+     "OR Art. 337c",
+     "OR Art. 336a",
+     "OR Art. 336d",
+     "OR Art. 330",
+     "OR Art. 346",
+     "OR Art. 360a",
+     "DSG Art. 26",
+     "KVG Art. 71"
+    ]
+   }
+  },
+  "2653026bb65f6ffad65a59943e317c5532968e107353bf7535079c1142d0737f": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "DSG Art. 51",
+     "DSG Art. 2",
+     "DSG Art. 5",
+     "DSG Art. 19",
+     "DSG Art. 16",
+     "DSG Art. 17",
+     "DSG Art. 55",
+     "DSG Art. 58",
+     "DSG Art. 18",
+     "DSG Art. 6",
+     "DSG Art. 7",
+     "DSG Art. 8",
+     "DSG Art. 31",
+     "DSG Art. 32",
+     "DSG Art. 24",
+     "DSG Art. 22",
+     "DSG Art. 20",
+     "DSG Art. 26",
+     "DSG Art. 39",
+     "DSG Art. 48"
+    ]
+   }
+  },
+  "26eafa869d45392d83ac9cabc914b790d8c39741183da1b0c5f2102dab2929be": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "OR Art. 330b",
+     "OR Art. 339",
+     "OR Art. 337",
+     "OR Art. 336b",
+     "OR Art. 339c",
+     "OR Art. 340",
+     "OR Art. 337d",
+     "OR Art. 337c",
+     "OR Art. 337b",
+     "OR Art. 337a",
+     "OR Art. 346",
+     "OR Art. 344a",
+     "OR Art. 335f",
+     "OR Art. 335g",
+     "OR Art. 335e",
+     "OR Art. 347a",
+     "OR Art. 349",
+     "OR Art. 349a",
+     "OR Art. 360",
+     "OR Art. 360a"
+    ]
+   }
+  },
+  "2e0ad7ea85945e9d6c6c94cd459a6fecb2a04a8adcba1005b089fedd770f5d6c": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Das hängt davon ab, was Ihre Krankenkasse mit dem Arzt vereinbart hat: Gibt es keine andere Vereinbarung, schulden Sie dem Arzt die Rechnung selbst und können sich das Geld danach von der Kasse zurückerstatten lassen (System des «Tiers garant»). Kasse und Arzt können aber vereinbaren, dass die Kasse direkt bezahlt (System des «Tiers payant»); in diesem Fall muss Ihnen der Arzt unaufgefordert eine Kopie der Rechnung schicken. Bei einem Spitalaufenthalt zahlt die Kasse ihren Anteil immer direkt. Beachten Sie, dass Sie in jedem Fall einen Teil der Kosten selbst tragen, nämlich die Franchise und 10 Prozent Selbstbehalt.",
+    "citations": [
+     "KVG Art. 42",
+     "KVG Art. 64"
+    ]
+   }
+  },
+  "31785e734d5f4041ee7f62dbe14e19f19cb866da9f81d16e7b48f428dd10bed5": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Ja: Wenn Sie in bescheidenen wirtschaftlichen Verhältnissen leben, gewährt Ihnen der Kanton eine Prämienverbilligung, die er direkt an Ihre Krankenkasse bezahlt; bei unteren und mittleren Einkommen werden die Prämien von Kindern um mindestens 80 Prozent und von jungen Erwachsenen in Ausbildung um mindestens 50 Prozent verbilligt. Bei der Prüfung des Anspruchs berücksichtigt der Kanton, insbesondere auf Ihren Antrag hin, Ihre aktuellsten Einkommens- und Familienverhältnisse, und die Kantone müssen regelmässig über dieses Recht informieren (KVG Art. 65). Wohnen Sie in einem EU-Staat, in Island, Norwegen oder im Vereinigten Königreich und beziehen eine Schweizer Rente, gewährt stattdessen der Bund die Prämienverbilligung (KVG Art. 66a).",
+    "citations": [
+     "KVG Art. 65",
+     "KVG Art. 66a"
+    ]
+   }
+  },
+  "3212c0b95da10df5647b481deff706fc45574831726492b21358bfb9a70e1b2e": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Ein Konkurrenzverbot gilt nur, wenn Sie als handlungsfähige Person schriftlich zugestimmt haben, sich nach dem Austritt konkurrenzierender Tätigkeit zu enthalten, und wenn Sie bei der Arbeit Einblick in den Kundenkreis oder in Fabrikations- und Geschäftsgeheimnisse hatten, deren Verwendung den Arbeitgeber erheblich schädigen könnte. Das Verbot muss nach Ort, Zeit und Gegenstand angemessen begrenzt sein, darf Ihr wirtschaftliches Fortkommen nicht unbillig erschweren und nur unter besonderen Umständen länger als drei Jahre dauern; ein übermässiges Verbot kann das Gericht einschränken. Das Verbot fällt weg, wenn der Arbeitgeber nachweisbar kein erhebliches Interesse mehr daran hat oder wenn er Ihnen kündigt, ohne dass Sie begründeten Anlass gegeben haben, oder wenn Sie aus einem begründeten, vom Arbeitgeber zu verantwortenden Anlass kündigen. Dies ist eine Information zum Gesetz, keine Rechtsberatung.",
+    "citations": [
+     "OR Art. 340",
+     "OR Art. 340a",
+     "OR Art. 340c"
+    ]
+   }
+  },
+  "39621b0ae385cdd05b92d6092f2411f7b5f9b81e19f82e94e780d2e201bf685b": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Das Datenschutzgesetz nennt solche Informationen «besonders schützenswerte Personendaten». Dazu gehören Daten über religiöse, weltanschauliche, politische oder gewerkschaftliche Ansichten oder Tätigkeiten, Daten über die Gesundheit, die Intimsphäre oder die Zugehörigkeit zu einer Rasse oder Ethnie, genetische Daten, biometrische Daten, die eine Person eindeutig identifizieren, Daten über verwaltungs- und strafrechtliche Verfolgungen oder Sanktionen sowie Daten über Massnahmen der sozialen Hilfe. Für die Bearbeitung solcher Daten ist, wenn eine Einwilligung nötig ist, eine ausdrückliche Einwilligung erforderlich. Werden sie an Dritte weitergegeben, liegt in der Regel eine Persönlichkeitsverletzung vor.",
+    "citations": [
+     "DSG Art. 5",
+     "DSG Art. 6",
+     "DSG Art. 30"
+    ]
+   }
+  },
+  "3b4ac8891197b1f5092207237d8cc6271150c2bed24403d8904045707ffc7213": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "OR Art. 336c",
+     "OR Art. 335b",
+     "OR Art. 335",
+     "OR Art. 335c",
+     "OR Art. 329f",
+     "OR Art. 324a",
+     "OR Art. 336b",
+     "OR Art. 346",
+     "OR Art. 361",
+     "OR Art. 328a",
+     "OR Art. 329gbis",
+     "OR Art. 329g",
+     "OR Art. 335d",
+     "OR Art. 335g",
+     "OR Art. 335f",
+     "OR Art. 329j",
+     "KVG Art. 30",
+     "OR Art. 356c",
+     "KVG Art. 7",
+     "KVG Art. 5"
+    ]
+   }
+  },
+  "3cc0616954e5e0350606fb1a32c04279cfe5bab8ea9c64f7b6ab696cc74c2511": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "KVG Art. 31",
+     "KVG Art. 34",
+     "KVG Art. 24",
+     "KVG Art. 28",
+     "KVG Art. 27",
+     "KVG Art. 26",
+     "KVG Art. 8",
+     "KVG Art. 41",
+     "KVG Art. 42",
+     "KVG Art. 102",
+     "KVG Art. 36",
+     "KVG Art. 38",
+     "KVG Art. 7",
+     "KVG Art. 9",
+     "KVG Art. 10",
+     "KVG Art. 63",
+     "KVG Art. 6a",
+     "KVG Art. 4a",
+     "KVG Art. 105a",
+     "OR Art. 331"
+    ]
+   }
+  },
+  "3cec66faf6b76478735d5e618085aa8b045cba6c29ac14c8823b3798e72a527c": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Nein, in der Regel nicht. Wenn Sie wegen Krankheit ohne eigenes Verschulden insgesamt nicht mehr als einen Monat im Dienstjahr an der Arbeit verhindert waren, darf der Arbeitgeber Ihre Ferien nicht kürzen. Zwei Wochen Krankheit liegen deutlich unter dieser Grenze. Eine abweichende Regelung ist nur über einen Normal- oder Gesamtarbeitsvertrag möglich, und auch dann nur, wenn sie für Sie insgesamt mindestens gleichwertig ist.",
+    "citations": [
+     "OR Art. 329b"
+    ]
+   }
+  },
+  "3d0dd0d1e18ee30d07791eea1cf679bd9b0bef67b25c23955a92b5558762cbf2": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "DSG Art. 32",
+     "DSG Art. 6",
+     "DSG Art. 30",
+     "DSG Art. 41",
+     "DSG Art. 25",
+     "DSG Art. 49",
+     "DSG Art. 51",
+     "DSG Art. 26",
+     "DSG Art. 15",
+     "DSG Art. 28",
+     "DSG Art. 60",
+     "DSG Art. 21",
+     "DSG Art. 29",
+     "DSG Art. 27",
+     "DSG Art. 24",
+     "DSG Art. 36",
+     "DSG Art. 34",
+     "DSG Art. 23",
+     "DSG Art. 55",
+     "KVG Art. 47b"
+    ]
+   }
+  },
+  "3e3c0c26234aa3bc62f7295befc71ff4e529b75c66c80d8661f1240af7b3afa3": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Eine fristlose Entlassung ist nur aus wichtigen Gründen erlaubt, also wenn dem Kündigenden nach Treu und Glauben die Fortsetzung des Arbeitsverhältnisses nicht mehr zugemutet werden kann; auf Verlangen muss die fristlose Auflösung schriftlich begründet werden. Ob ein solcher Grund vorliegt, entscheidet der Richter nach seinem Ermessen, wobei eine unverschuldete Verhinderung des Arbeitnehmers an der Arbeit (z. B. Krankheit) nie als wichtiger Grund gilt. Bei einem Lehrverhältnis kann ein wichtiger Grund namentlich vorliegen, wenn der Fachkraft die Fähigkeiten zur Ausbildung fehlen, die lernende Person die nötigen Anlagen nicht hat oder gefährdet ist (nach vorgängiger Anhörung) oder die Bildung nicht mehr wie vorgesehen abgeschlossen werden kann. Entlässt der Arbeitgeber fristlos ohne wichtigen Grund, hat der Arbeitnehmer Anspruch auf den Lohn bis zum ordentlichen Ende der Kündigungsfrist und allenfalls auf eine Entschädigung von bis zu sechs Monatslöhnen.",
+    "citations": [
+     "OR Art. 337",
+     "OR Art. 346",
+     "OR Art. 337c"
+    ]
+   }
+  },
+  "4190bbfce6fa7b9253a2eb246018cc7107afc89051e97ab76b1b78a4dbcd39fb": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "DSG Art. 65",
+     "KVG Art. 92",
+     "KVG Art. 57",
+     "DSG Art. 24",
+     "KVG Art. 35",
+     "KVG Art. 25",
+     "KVG Art. 59a",
+     "KVG Art. 56a",
+     "KVG Art. 101",
+     "KVG Art. 37",
+     "KVG Art. 55a",
+     "KVG Art. 56",
+     "KVG Art. 58h",
+     "KVG Art. 47a",
+     "KVG Art. 52a",
+     "KVG Art. 33",
+     "KVG Art. 30",
+     "KVG Art. 69",
+     "KVG Art. 71",
+     "OR Art. 328a"
+    ]
+   }
+  },
+  "4417ba1c84b7332df293bf9176f8cae65200aa5b4a689a9acb325e720bfe4f5c": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": false,
+    "answer": "Die vorliegenden Artikel behandeln weder die Enterbung von Kindern noch deren Pflichtteil und beantworten die Frage daher nicht.",
+    "citations": []
+   }
+  },
+  "45836c7f48afe79edba119756f3828ad2257493d7be5978e970002a196c2e256": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "In der obligatorischen Krankenpflegeversicherung beteiligen Sie sich an den Kosten der Leistungen, die für Sie erbracht werden, also auch an den Kosten eines Arztbesuchs. Diese Kostenbeteiligung besteht aus einem festen Jahresbetrag (Franchise) und zusätzlich 10 Prozent der Kosten, die über die Franchise hinausgehen (Selbstbehalt); die konkrete Höhe der Franchise und den jährlichen Höchstbetrag des Selbstbehalts legt der Bundesrat fest, die Frankenbeträge stehen also nicht in den vorliegenden Artikeln. Für Kinder gibt es keine Franchise und nur den halben Höchstbetrag des Selbstbehalts; bei bestimmten Leistungen wie Mutterschaft entfällt die Kostenbeteiligung ganz. Wenn Sie eine besondere Versicherungsform mit höherer Kostenbeteiligung gegen tiefere Prämie gewählt haben, kann Ihr Anteil höher ausfallen.",
+    "citations": [
+     "KVG Art. 64",
+     "KVG Art. 25",
+     "KVG Art. 62"
+    ]
+   }
+  },
+  "458cfef6d6abd6f3f8aa46040db7160d118229fbb4bf49b20493a2a1098ae02c": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Die Mitgliederdaten dürfen auch beim Cloud-Anbieter nur rechtmässig, verhältnismässig und für den erkennbaren Vereinszweck bearbeitet werden; sie müssen richtig sein und gelöscht oder anonymisiert werden, sobald sie nicht mehr gebraucht werden (DSG Art. 6). Liegen die Daten im Ausland, ist das nur zulässig, wenn der Bundesrat dem betreffenden Staat einen angemessenen Schutz bescheinigt hat oder andere Garantien bestehen, etwa vom EDÖB anerkannte Standarddatenschutzklauseln (DSG Art. 16). Bei einer Datenpanne muss der Cloud-Anbieter als Auftragsbearbeiter Ihren Verein so rasch als möglich informieren; der Verein muss bei voraussichtlich hohem Risiko dem EDÖB Meldung erstatten und die Mitglieder informieren, wenn dies zu ihrem Schutz nötig ist (DSG Art. 24). Die besonderen Regeln dazu, wann und wie man die Bearbeitung überhaupt an einen Dienstleister auslagern darf, sind in den vorliegenden Artikeln nicht enthalten.",
+    "citations": [
+     "DSG Art. 6",
+     "DSG Art. 16",
+     "DSG Art. 24"
+    ]
+   }
+  },
+  "48e68c112d134d764f582f2f3bb8f1bd6642e6e068f3300300a15ec9949a1b83": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": false,
+    "answer": "Die vorliegenden Artikel regeln nicht, welche Kündigungsfrist in einem gewöhnlichen Arbeitsverhältnis während der Probezeit, also etwa nach zwei Wochen im neuen Job, gilt.",
+    "citations": []
+   }
+  },
+  "4973e8b502cf95168e83a547c51a4533b7ad619dd0e683921ed372e6c5337aab": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Ein 19-jähriger Angestellter hat pro Dienstjahr Anspruch auf mindestens fünf Wochen Ferien, weil Arbeitnehmenden bis zum vollendeten 20. Altersjahr wenigstens fünf statt vier Wochen zustehen. Dauert das Arbeitsverhältnis im betreffenden Dienstjahr nicht das ganze Jahr, werden die Ferien anteilig gewährt. Von diesem Mindestanspruch darf weder durch Vertrag noch durch Normal- oder Gesamtarbeitsvertrag zum Nachteil des Arbeitnehmers abgewichen werden; abweichende Abreden sind nichtig.",
+    "citations": [
+     "OR Art. 329a",
+     "OR Art. 362"
+    ]
+   }
+  },
+  "4a92347d7beecd750de5794fb48b3ee49e577b52a3da739d5cbf3d98b843444c": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": false,
+    "answer": "Die angegebenen Artikel regeln weder das Alter, ab dem die AHV-Rente beginnt, noch deren Höhe, daher lässt sich Ihre Frage damit nicht beantworten.",
+    "citations": []
+   }
+  },
+  "4b0b00748acfae9aff0066e88bdb73985d654dd70f84b58b10e8ac3c80e11509": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Im dritten Dienstjahr beträgt die gesetzliche Kündigungsfrist zwei Monate, jeweils auf das Ende eines Monats. Diese Frist kann jedoch durch schriftliche Abrede, Normalarbeitsvertrag oder Gesamtarbeitsvertrag abgeändert werden; schauen Sie deshalb auch in Ihren Arbeitsvertrag oder einen allfälligen GAV. Für Sie und Ihren Arbeitgeber dürfen grundsätzlich keine unterschiedlichen Fristen gelten; bei einer widersprechenden Abrede gilt für beide die längere Frist.",
+    "citations": [
+     "OR Art. 335c",
+     "OR Art. 335a"
+    ]
+   }
+  },
+  "4f8ce96f5e75ae8ba485850e23a860a9ad60e6225444dfdfcb1ca903818d19ed": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "KVG Art. 3",
+     "KVG Art. 5",
+     "KVG Art. 6a",
+     "KVG Art. 7",
+     "KVG Art. 4a",
+     "KVG Art. 61",
+     "KVG Art. 65",
+     "KVG Art. 67",
+     "KVG Art. 64a",
+     "KVG Art. 62",
+     "KVG Art. 64",
+     "KVG Art. 41",
+     "KVG Art. 105a",
+     "KVG Art. 66a",
+     "KVG Art. 99",
+     "KVG Art. 49a",
+     "KVG Art. 39",
+     "KVG Art. 57",
+     "KVG Art. 37",
+     "KVG Art. 38"
+    ]
+   }
+  },
+  "5050f50677423424a900eda54fa5e85a5c2aedfc5d45d1bf482e8e93e9cc90a9": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Ja, bei der Grundversicherung können Sie die Krankenkasse frei wählen, und zwar unter allen Versicherern, die eine Bewilligung zur Durchführung der sozialen Krankenversicherung haben. Sie können die Kasse auch später wechseln: grundsätzlich mit dreimonatiger Kündigungsfrist auf Ende eines Kalendersemesters, oder nach Mitteilung einer neuen Prämie mit einmonatiger Frist. Ein Wechsel ist allerdings ausgeschlossen, solange Sie Prämien oder Kostenbeteiligungen schulden. Eine Zuteilung durch die Behörde ist in den vorliegenden Artikeln nur für Personen mit Wohnort in der EU, Island, Norwegen oder im Vereinigten Königreich vorgesehen, die sich nicht rechtzeitig versichern; deren Familienangehörige müssen zudem beim selben Versicherer versichert sein.",
+    "citations": [
+     "KVG Art. 4",
+     "KVG Art. 7",
+     "KVG Art. 64a",
+     "KVG Art. 6a",
+     "KVG Art. 4a"
+    ]
+   }
+  },
+  "571768dd96627ba43953c1cc346e075474c7970579dc9e9337d7138623991c47": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "KVG Art. 42",
+     "KVG Art. 42a",
+     "KVG Art. 64",
+     "KVG Art. 24",
+     "KVG Art. 25",
+     "KVG Art. 64a",
+     "KVG Art. 52",
+     "KVG Art. 33",
+     "KVG Art. 28",
+     "KVG Art. 26",
+     "KVG Art. 31",
+     "KVG Art. 30",
+     "KVG Art. 103",
+     "KVG Art. 102",
+     "OR Art. 331",
+     "KVG Art. 52a",
+     "KVG Art. 69",
+     "KVG Art. 5",
+     "KVG Art. 20",
+     "OR Art. 331b"
+    ]
+   }
+  },
+  "5729e54613f06e87ad578ecb8d2d522cbe77f3bc087cfc1b93ce870a02a862f5": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": false,
+    "answer": "Die vorliegenden Artikel regeln keinen Lohnzuschlag für Nachtarbeit und beantworten Ihre Frage daher nicht.",
+    "citations": []
+   }
+  },
+  "59051feb60b90e1d728caa44338753fbad7901eed31d496f89f70d86103ae0ca": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "KVG Art. 64",
+     "KVG Art. 62",
+     "KVG Art. 25",
+     "KVG Art. 64a",
+     "KVG Art. 25a",
+     "KVG Art. 26",
+     "KVG Art. 29",
+     "KVG Art. 31",
+     "KVG Art. 61",
+     "KVG Art. 65",
+     "KVG Art. 52a",
+     "KVG Art. 50",
+     "KVG Art. 5",
+     "KVG Art. 3",
+     "KVG Art. 57",
+     "KVG Art. 47a",
+     "KVG Art. 58f",
+     "KVG Art. 16a",
+     "KVG Art. 16",
+     "KVG Art. 4a"
+    ]
+   }
+  },
+  "59128ce42f3367094dffa1a8f7a877915ef919cfef798b0934e63cbac83499bc": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Ja. Eine Auskunftei ist eine private Datenbearbeiterin, und Sie können verlangen, dass unrichtige Personendaten wie eine falsche Adresse berichtigt werden – ausser eine gesetzliche Vorschrift verbietet die Änderung oder die Daten werden zu Archivzwecken im öffentlichen Interesse bearbeitet. Zudem muss sich jede Person, die Personendaten bearbeitet, über deren Richtigkeit vergewissern und angemessene Massnahmen treffen, damit unrichtige Daten berichtigt werden. Um zu prüfen, welche Daten die Auskunftei über Sie gespeichert hat, können Sie kostenlos Auskunft verlangen, die in der Regel innerhalb von 30 Tagen erteilt wird.",
+    "citations": [
+     "DSG Art. 32",
+     "DSG Art. 6",
+     "DSG Art. 25"
+    ]
+   }
+  },
+  "593acd10736318e836fb349ef0d74ac81da40e6d417d96b9dbd8e00df64afa99": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Grundsätzlich darf die Grundversicherung nur die gesetzlich aufgezählten Leistungen übernehmen; dazu gehört auch der Spitalaufenthalt in der allgemeinen Abteilung. Für Behandlungen im Ausland sieht das Gesetz vor, dass der Bundesrat die Übernahme solcher Leistungen bestimmen kann, wenn sie aus medizinischen Gründen für in der Schweiz wohnhafte Versicherte im Ausland erbracht werden. Er kann diese Kostenübernahme aber begrenzen. Ob und in welcher Höhe Ihr Notfall in Spanien konkret bezahlt wird, regeln die Ausführungsbestimmungen des Bundesrats, die hier nicht vorliegen.",
+    "citations": [
+     "KVG Art. 34",
+     "KVG Art. 25",
+     "KVG Art. 24"
+    ]
+   }
+  },
+  "5c639a956ebe32adf6f92898b45b20fc857a0ebe7267dc7d0aa5d7ac9d04560a": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Grundsätzlich ja: Werden Überstunden nicht durch Freizeit ausgeglichen, muss der Arbeitgeber dafür den Normallohn samt einem Zuschlag von mindestens einem Viertel (25 %) bezahlen. Das gilt aber nur, wenn nichts anderes schriftlich vereinbart oder durch einen Normal- oder Gesamtarbeitsvertrag bestimmt ist; ein schriftlicher Vertrag kann den Zuschlag also ausschliessen. Ausserdem kann der Arbeitgeber die Überstunden mit Ihrem Einverständnis innert angemessener Zeit durch Freizeit von mindestens gleicher Dauer ausgleichen, dann entfällt die Bezahlung. Nicht abänderbar ist nach OR Art. 361 nur die Regel in Absatz 1 von OR Art. 321c, also die Pflicht, notwendige und zumutbare Überstunden überhaupt zu leisten, nicht aber der Zuschlag.",
+    "citations": [
+     "OR Art. 321c",
+     "OR Art. 361"
+    ]
+   }
+  },
+  "5c9ccf45f77dd9a97e2164df6a588529da1c9d45bc1369edaa56989150b4e14d": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "KVG Art. 29",
+     "KVG Art. 64",
+     "KVG Art. 35",
+     "KVG Art. 42",
+     "KVG Art. 25",
+     "KVG Art. 41",
+     "KVG Art. 49",
+     "KVG Art. 25a",
+     "KVG Art. 101",
+     "KVG Art. 39",
+     "OR Art. 328a",
+     "KVG Art. 74",
+     "KVG Art. 27",
+     "KVG Art. 5",
+     "KVG Art. 61a",
+     "OR Art. 329f",
+     "KVG Art. 30",
+     "OR Art. 329g",
+     "OR Art. 329gbis",
+     "OR Art. 325"
+    ]
+   }
+  },
+  "5d999abb95f1ecd18a9e637d5ccbab722e9ffa4b578f52e5678ddd7e710a8da2": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "OR Art. 329g",
+     "OR Art. 329gbis",
+     "OR Art. 335c",
+     "OR Art. 329b",
+     "OR Art. 329f",
+     "OR Art. 329j",
+     "OR Art. 329",
+     "OR Art. 329h",
+     "OR Art. 329a",
+     "OR Art. 329c",
+     "OR Art. 329e",
+     "KVG Art. 74",
+     "OR Art. 328a",
+     "OR Art. 338",
+     "KVG Art. 72",
+     "KVG Art. 64",
+     "KVG Art. 70",
+     "OR Art. 335c_dummy_removed"
+    ]
+   }
+  },
+  "5f6cea7e90b13d0b1587622bcb826ac5a0418589ae8a57ab8b495f02b04548fc": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Wenn Sie fällige Prämien oder Kostenbeteiligungen trotz Mahnung und Zahlungsaufforderung mit 30-tägiger Nachfrist nicht bezahlen, muss die Krankenkasse die Betreibung einleiten. Sie darf Sie aber pro Kalenderjahr höchstens zwei Mal für eigene Ausstände und höchstens zwei Mal für Ausstände eines Kindes betreiben. Betreibungen für Forderungen, die bereits zu einem Verlustschein oder einem gleichwertigen Rechtstitel geführt haben, werden dabei nicht mitgezählt. Solange die Ausstände nicht vollständig bezahlt sind, können Sie zudem in der Regel die Krankenkasse nicht wechseln.",
+    "citations": [
+     "KVG Art. 64a"
+    ]
+   }
+  },
+  "6671d17f8318772e59959ce62ba17d5646ee1b1f585c705ff5f829920852e7fa": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Sie haben Anspruch auf bezahlten Urlaub für die Zeit, die zur Betreuung eines Familienmitglieds mit gesundheitlicher Beeinträchtigung notwendig ist – also auch für Ihre Mutter. Der Urlaub ist jedoch auf höchstens drei Tage pro Ereignis und höchstens zehn Tage pro Jahr begrenzt. Für den Sturz Ihrer Mutter können Sie somit bis zu drei bezahlte Tage beziehen, soweit diese Zeit für die Betreuung tatsächlich nötig ist. Der längere Betreuungsurlaub von bis zu 14 Wochen gilt nur für schwer beeinträchtigte Kinder, nicht für Eltern.",
+    "citations": [
+     "OR Art. 329h",
+     "OR Art. 329i"
+    ]
+   }
+  },
+  "68de6f1edffc7c8160e2858e5fee5e1299301aab956052dd3a6fb96d9d0a1761": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Wenn Ihr Arbeitsverhältnis unbefristet ist oder länger als einen Monat dauert, muss Ihr Arbeitgeber Sie spätestens einen Monat nach Beginn des Arbeitsverhältnisses schriftlich informieren. Diese Mitteilung muss die Namen der Vertragsparteien, das Datum des Stellenantritts, Ihre Funktion, den Lohn mit allfälligen Lohnzuschlägen und die wöchentliche Arbeitszeit enthalten. Ändert sich später einer dieser Punkte, muss Ihnen der Arbeitgeber die Änderung spätestens einen Monat nach deren Inkrafttreten schriftlich mitteilen.",
+    "citations": [
+     "OR Art. 330b"
+    ]
+   }
+  },
+  "6e144a1f53166283389303851ba129ded30a38aef6a97d1063b87d107a4ef941": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Die Grundversicherung übernimmt zahnärztliche Behandlungen nur in bestimmten Fällen: wenn sie durch eine schwere, nicht vermeidbare Erkrankung des Kausystems oder durch eine schwere Allgemeinerkrankung bzw. deren Folgen bedingt sind oder zur Behandlung einer solchen Erkrankung notwendig sind, sowie bei Schäden am Kausystem durch einen Unfall (KVG Art. 31). Andere Kosten als die gesetzlich vorgesehenen Leistungen darf die Grundversicherung nicht übernehmen (KVG Art. 34, KVG Art. 24). Eine aufwendige Zahnsanierung wird also nur bezahlt, wenn einer dieser Gründe vorliegt; dass die Behandlung aufwendig ist, reicht allein nicht aus.",
+    "citations": [
+     "KVG Art. 31",
+     "KVG Art. 34",
+     "KVG Art. 24"
+    ]
+   }
+  },
+  "6f49a2cb95c7f86da5b1e49f8c35479cf15a544017384df0fdf479aca00fb4c5": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "DSG Art. 17",
+     "DSG Art. 16",
+     "DSG Art. 19",
+     "DSG Art. 61",
+     "DSG Art. 51",
+     "DSG Art. 2",
+     "DSG Art. 14",
+     "DSG Art. 15",
+     "DSG Art. 18",
+     "DSG Art. 62",
+     "DSG Art. 50",
+     "KVG Art. 47b",
+     "KVG Art. 6a",
+     "OR Art. 348",
+     "OR Art. 348b",
+     "OR Art. 349",
+     "OR Art. 349b",
+     "OR Art. 349c",
+     "OR Art. 349e",
+     "OR Art. 350a"
+    ]
+   }
+  },
+  "704482331d49490caad8a40f276019dcbb692bd4f7d2c1d8ec91d2916b7fab52": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "DSG Art. 19",
+     "DSG Art. 25",
+     "DSG Art. 24",
+     "DSG Art. 12",
+     "DSG Art. 17",
+     "DSG Art. 16",
+     "DSG Art. 23",
+     "OR Art. 330b",
+     "KVG Art. 7",
+     "OR Art. 335f",
+     "OR Art. 331",
+     "OR Art. 322a",
+     "OR Art. 323",
+     "OR Art. 348",
+     "OR Art. 349",
+     "OR Art. 349b",
+     "OR Art. 350a",
+     "OR Art. 348b",
+     "OR Art. 348a",
+     "OR Art. 336a"
+    ]
+   }
+  },
+  "722b80cf6a094952c11906aa83973ce3d02d1f864802d8d4649407a5931f1a31": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Wer in der Schweiz Wohnsitz nimmt, muss sich innert drei Monaten nach der Wohnsitznahme für Krankenpflege versichern. Schliessen Sie rechtzeitig ab, beginnt die Versicherung rückwirkend ab dem Zeitpunkt Ihrer Wohnsitznahme in der Schweiz. Bei verspätetem Beitritt beginnt die Versicherung erst mit dem Beitritt, und bei nicht entschuldbarer Verspätung müssen Sie einen Prämienzuschlag bezahlen. Der Bundesrat kann für bestimmte Personen Ausnahmen von der Versicherungspflicht vorsehen.",
+    "citations": [
+     "KVG Art. 3",
+     "KVG Art. 5"
+    ]
+   }
+  },
+  "723f2528a52d649bc02b69ff5639fc2fe4ecd7a114308d2a310ec1bdbb2fa65b": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Ja. Nach dem Gesetz müssen wenigstens zwei Ferienwochen zusammenhängen. Sie können also nicht alle Ferien nur in einzelnen Tagen beziehen, die übrigen Ferientage aber durchaus verteilt nehmen. Zudem sind die Ferien in der Regel im Verlauf des jeweiligen Dienstjahres zu gewähren, und den Zeitpunkt bestimmt der Arbeitgeber: Er berücksichtigt Ihre Wünsche, soweit dies mit den Interessen des Betriebs vereinbar ist.",
+    "citations": [
+     "OR Art. 329c"
+    ]
+   }
+  },
+  "725ec45ad3c098caca723fc340d0a92735a7435e3077dfc748b441dc27005080": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "OR Art. 322d",
+     "OR Art. 330b",
+     "OR Art. 323a",
+     "OR Art. 324a",
+     "OR Art. 329d",
+     "OR Art. 339a",
+     "OR Art. 333",
+     "OR Art. 337c",
+     "OR Art. 339c",
+     "OR Art. 360a",
+     "OR Art. 331",
+     "OR Art. 330",
+     "OR Art. 337a",
+     "OR Art. 339d",
+     "OR Art. 337d",
+     "OR Art. 329b",
+     "OR Art. 329c",
+     "OR Art. 345a",
+     "KVG Art. 42",
+     "KVG Art. 46a"
+    ]
+   }
+  },
+  "764bc5b98856846a84e65d5f7b287d16cd973de224101a0b82ecfc8032bb86ca": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "OR Art. 339b",
+     "OR Art. 338",
+     "OR Art. 331e",
+     "OR Art. 331d",
+     "KVG Art. 61a",
+     "KVG Art. 64",
+     "KVG Art. 5",
+     "OR Art. 329gbis",
+     "OR Art. 329g",
+     "OR Art. 329f",
+     "KVG Art. 65",
+     "KVG Art. 64a",
+     "KVG Art. 61",
+     "KVG Art. 16",
+     "KVG Art. 95a",
+     "KVG Art. 18",
+     "KVG Art. 38",
+     "KVG Art. 37",
+     "KVG Art. 59a",
+     "DSG Art. 60"
+    ]
+   }
+  },
+  "78a6341ead787c1e58a5fef49ec2ea964af0c492040d14bbf3d3529a2f646adb": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "KVG Art. 67",
+     "KVG Art. 72",
+     "KVG Art. 71",
+     "KVG Art. 69",
+     "KVG Art. 73",
+     "KVG Art. 102",
+     "KVG Art. 98",
+     "KVG Art. 99",
+     "OR Art. 328a",
+     "OR Art. 339b",
+     "KVG Art. 61",
+     "KVG Art. 16a",
+     "KVG Art. 16",
+     "KVG Art. 65",
+     "KVG Art. 7",
+     "KVG Art. 4a",
+     "OR Art. 362",
+     "KVG Art. 25a",
+     "KVG Art. 37",
+     "KVG Art. 36"
+    ]
+   }
+  },
+  "7a0124d6ee8766d6cb46f891e11d5ee0a03c1ff99743966f07a32e6f85dac62f": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Ein privater Verantwortlicher mit Sitz im Ausland muss eine Vertretung in der Schweiz bezeichnen, wenn er Personendaten von Personen in der Schweiz bearbeitet und alle folgenden Voraussetzungen erfüllt sind: Die Bearbeitung hängt mit dem Angebot von Waren oder Dienstleistungen in der Schweiz zusammen, sie ist umfangreich, sie erfolgt regelmässig und sie bringt ein hohes Risiko für die Persönlichkeit der betroffenen Personen mit sich. Bei einem grossen Onlinehändler, der systematisch Kundendaten sammelt, dürften die ersten drei Punkte oft zutreffen; ob auch ein hohes Risiko besteht, hängt vom Einzelfall ab. Ist die Pflicht gegeben, dient die Vertretung als Anlaufstelle für Sie und den EDÖB, und der Händler muss ihren Namen und ihre Adresse veröffentlichen.",
+    "citations": [
+     "DSG Art. 14"
+    ]
+   }
+  },
+  "7b4b1efcd0375c71ec3d6b3fc5d780fbb742f9250a818ef71931581a26ddece0": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "DSG Art. 24",
+     "DSG Art. 8",
+     "DSG Art. 9",
+     "DSG Art. 26",
+     "DSG Art. 19",
+     "DSG Art. 20",
+     "DSG Art. 54",
+     "DSG Art. 53",
+     "DSG Art. 62",
+     "DSG Art. 31",
+     "DSG Art. 32",
+     "DSG Art. 25",
+     "DSG Art. 16",
+     "OR Art. 328b",
+     "DSG Art. 40",
+     "DSG Art. 36",
+     "DSG Art. 34",
+     "DSG Art. 41",
+     "DSG Art. 37",
+     "DSG Art. 71"
+    ]
+   }
+  },
+  "7b8d00e1fd5ab9e5a4344cfa38e01b0bd91e2bf89f82c4c86f82aec8d3d8181a": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "OR Art. 321c",
+     "OR Art. 361",
+     "OR Art. 323",
+     "OR Art. 329",
+     "OR Art. 326",
+     "OR Art. 322d",
+     "OR Art. 324a",
+     "OR Art. 323a",
+     "OR Art. 327a",
+     "OR Art. 345a",
+     "OR Art. 349c",
+     "OR Art. 329b",
+     "OR Art. 329h",
+     "OR Art. 329e",
+     "OR Art. 327b",
+     "OR Art. 328a",
+     "OR Art. 331",
+     "OR Art. 360e",
+     "KVG Art. 72",
+     "KVG Art. 46a"
+    ]
+   }
+  },
+  "7c002152d7643790fe2c99ad0f226658a1f26e3b022c940412f32e9b0d2a8678": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Die Firma muss Sie schon beim Beschaffen Ihrer Daten informieren, mindestens über ihre Identität, den Zweck und allfällige Empfänger; stammen die Daten nicht von Ihnen selbst, muss sie auch die Kategorien der Daten nennen (Ausnahmen sind möglich). Zudem können Sie kostenlos die Herausgabe der Daten, die Sie der Firma selbst gegeben haben, in einem gängigen elektronischen Format verlangen, wenn sie diese automatisiert und mit Ihrer Einwilligung oder im Rahmen eines Vertrags bearbeitet. Die Artikel setzen auch ein Auskunftsgesuch voraus, das die Firma nur aus bestimmten Gründen verweigern, einschränken oder aufschieben darf und dann begründen muss; der Artikel, der das Auskunftsrecht selbst regelt, ist hier jedoch nicht enthalten.",
+    "citations": [
+     "DSG Art. 19",
+     "DSG Art. 20",
+     "DSG Art. 28",
+     "DSG Art. 29",
+     "DSG Art. 26"
+    ]
+   }
+  },
+  "7c147dc991e965005aa78dd42d2e612e8bb4026515cc658831a39717234aa136": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "DSG Art. 19",
+     "DSG Art. 62",
+     "DSG Art. 20",
+     "DSG Art. 6",
+     "DSG Art. 26",
+     "DSG Art. 32",
+     "DSG Art. 29",
+     "DSG Art. 27",
+     "DSG Art. 31",
+     "OR Art. 328b",
+     "DSG Art. 37",
+     "DSG Art. 36",
+     "DSG Art. 34",
+     "DSG Art. 39",
+     "DSG Art. 35",
+     "OR Art. 336a",
+     "OR Art. 322a",
+     "DSG Art. 47",
+     "OR Art. 321b",
+     "OR Art. 339a"
+    ]
+   }
+  },
+  "7c49c4aab3e3f0b1fa8d1d688f1bef10c747d81f02eaff45113ebb022b882d2b": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "OR Art. 327b",
+     "OR Art. 347",
+     "OR Art. 348",
+     "OR Art. 349",
+     "OR Art. 349b",
+     "OR Art. 339a",
+     "OR Art. 348a",
+     "OR Art. 349e",
+     "OR Art. 321a",
+     "OR Art. 321",
+     "OR Art. 340",
+     "OR Art. 335f",
+     "OR Art. 360e",
+     "KVG Art. 42",
+     "DSG Art. 64",
+     "KVG Art. 52a",
+     "KVG Art. 47b",
+     "KVG Art. 105a",
+     "KVG Art. 4a",
+     "KVG Art. 96"
+    ]
+   }
+  },
+  "7ea136e0b0abacc0aefd3aaf07276d889caed8d029d32e1291b460173cd68edd": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "OR Art. 340",
+     "OR Art. 321c",
+     "OR Art. 329",
+     "OR Art. 337c",
+     "OR Art. 336",
+     "OR Art. 361",
+     "OR Art. 324a",
+     "OR Art. 354",
+     "OR Art. 337d",
+     "OR Art. 336d",
+     "OR Art. 336a",
+     "OR Art. 337a",
+     "OR Art. 345a",
+     "OR Art. 328a",
+     "OR Art. 323a",
+     "OR Art. 360a",
+     "OR Art. 360e",
+     "OR Art. 357b",
+     "OR Art. 335i",
+     "OR Art. 339d"
+    ]
+   }
+  },
+  "80d5ba405a183213675a4bc85021736e4c0ce28894d0ea43aac600481f31b9fc": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": false,
+    "answer": "Die vorliegenden Artikel regeln die Festlegung der Krankenkassenprämien und die Prämienverbilligung, nicht aber den steuerlichen Abzug von Krankenkassenprämien.",
+    "citations": []
+   }
+  },
+  "82469116c1d1c54d9dc85c3226f11b1454a96a2d01eee0270a6a69a4a3f7d6ee": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Ja, grundsätzlich schon: Wenn mehrere Arzneimittel mit gleicher Wirkstoffzusammensetzung auf der Spezialitätenliste stehen, darf die Apotheke bei gleicher medizinischer Eignung für Sie ein preisgünstigeres Arzneimittel abgeben. Das gilt nicht, wenn Ihr Arzt bzw. Ihre Ärztin (oder Chiropraktor/in) ausdrücklich die Abgabe des Originalpräparats verlangt hat. Ersetzt die Apotheke das verschriebene Medikament, muss sie die verschreibende Person darüber informieren. Der Bundesrat kann zudem festlegen, wann Arzneimittel als medizinisch nicht gleich geeignet gelten.",
+    "citations": [
+     "KVG Art. 52a"
+    ]
+   }
+  },
+  "8419260bcd5b23ad8394ea5fabc6e3cc69e245df33c6535648899d1ee3c7b943": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "KVG Art. 73",
+     "OR Art. 335c",
+     "OR Art. 337c",
+     "OR Art. 336c",
+     "OR Art. 335b",
+     "OR Art. 335g",
+     "OR Art. 339c",
+     "OR Art. 336a",
+     "OR Art. 336b",
+     "OR Art. 335",
+     "OR Art. 334",
+     "OR Art. 335d",
+     "KVG Art. 72",
+     "KVG Art. 74",
+     "OR Art. 333",
+     "OR Art. 346",
+     "OR Art. 350",
+     "OR Art. 338",
+     "OR Art. 361",
+     "OR Art. 356c"
+    ]
+   }
+  },
+  "875f786ca90c421d1c39c67aca12e19f2e23f001ecac1b5058e7d371d19f013d": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "OR Art. 329c",
+     "OR Art. 329a",
+     "OR Art. 329d",
+     "OR Art. 329",
+     "OR Art. 329b",
+     "OR Art. 329g",
+     "OR Art. 329j",
+     "OR Art. 329f",
+     "OR Art. 329gbis",
+     "OR Art. 329e",
+     "OR Art. 329h",
+     "OR Art. 344a",
+     "OR Art. 335c",
+     "OR Art. 330b",
+     "OR Art. 328a",
+     "OR Art. 323a",
+     "OR Art. 350",
+     "OR Art. 331d",
+     "OR Art. 331e",
+     "KVG Art. 71"
+    ]
+   }
+  },
+  "87b3beb59942df85062e005ffec934c61469aafb65986d334aeb8c88e49a71e4": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": false,
+    "answer": "Die vorliegenden Artikel legen keine Mindestanzahl Stunden Ruhezeit zwischen Feierabend und dem nächsten Arbeitsbeginn fest und decken diese Frage daher nicht ab.",
+    "citations": []
+   }
+  },
+  "88309a3592cd5262d807a62f33a1250dfd6fa174d28472e874d75e00238bf1af": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Die Bank darf die Auskunft nur verweigern, einschränken oder aufschieben, wenn ein Gesetz im formellen Sinn dies vorsieht (etwa zum Schutz eines Berufsgeheimnisses), wenn überwiegende Interessen Dritter es erfordern oder wenn Ihr Gesuch offensichtlich unbegründet oder querulatorisch ist. Da eine Bank als private Verantwortliche gilt, darf sie zudem ablehnen, wenn ihre eigenen überwiegenden Interessen dies erfordern und sie die Daten nicht an Dritte weitergibt; Unternehmen desselben Konzerns gelten dabei nicht als Dritte. In jedem Fall muss die Bank Ihnen angeben, weshalb sie die Auskunft verweigert, einschränkt oder aufschiebt. Dieselben Gründe gelten auch, wenn Sie die Herausgabe oder Übertragung Ihrer Daten verlangen.",
+    "citations": [
+     "DSG Art. 26",
+     "DSG Art. 29"
+    ]
+   }
+  },
+  "88e79e2020f5333fef3640d835028231acdd065e35ec11d81bcaaa983d083d86": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": false,
+    "answer": "Die vorliegenden Artikel regeln nicht, wie das Vermögen der Ehegatten bei einer Scheidung allgemein aufgeteilt wird.",
+    "citations": []
+   }
+  },
+  "8f77d2e363316a81585b18772de0767c0ee63a8d056029de5db105067df6002b": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Ja: Wenn Sie ein schutzwürdiges Interesse glaubhaft machen, können Sie beim verantwortlichen Bundesorgan Widerspruch gegen die Bekanntgabe bestimmter Personendaten einlegen. Das Bundesorgan muss den Widerspruch aber abweisen, wenn eine Rechtspflicht zur Bekanntgabe besteht oder seine Aufgabenerfüllung sonst gefährdet wäre; eine Bekanntgabe im Rahmen der Information der Öffentlichkeit nach Art. 36 Abs. 3 bleibt vorbehalten. Zudem muss das Bundesorgan die Bekanntgabe von sich aus ablehnen, einschränken oder mit Auflagen verbinden, wenn offensichtlich schutzwürdige Interessen der betroffenen Person es verlangen. Sie können ausserdem verlangen, dass das Bundesorgan seinen Entscheid über den Widerspruch Dritten mitteilt; das Verfahren richtet sich nach dem VwVG.",
+    "citations": [
+     "DSG Art. 37",
+     "DSG Art. 36",
+     "DSG Art. 41"
+    ]
+   }
+  },
+  "91357f3c6de2de43dd0e9e80e1d52497e9a7ce689b27ffd615337cf7182ac9df": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": false,
+    "answer": "Die vorliegenden Artikel betreffen nur Kündigungsfristen im Arbeitsrecht und beim Gesamtarbeitsvertrag und decken die Kündigungsfrist für eine Mietwohnung nicht ab.",
+    "citations": []
+   }
+  },
+  "91f0dd288b11dc450430644fdfa4fbee132497c8d8722f613b6405525536738b": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": false,
+    "answer": "Die vorliegenden Artikel nennen keine Höchstzahl an Arbeitsstunden pro Woche und beantworten Ihre Frage daher nicht.",
+    "citations": []
+   }
+  },
+  "95ca504b48ccb8513542c91286d8aef56803b030bb173140df8fbdf6e68636a8": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Wenn im Vertrag nichts vereinbart ist, muss der Lohn gemäss Gesetz Ende jedes Monats ausgerichtet werden. Das gilt allerdings nur, wenn nicht kürzere Fristen oder andere Termine üblich sind und ein Normalarbeitsvertrag oder Gesamtarbeitsvertrag nichts anderes bestimmt. Ob das Geld am letzten Tag des Monats bereits auf dem Konto sein muss oder nur überwiesen sein muss, regelt der Artikel nicht ausdrücklich. Dies ist eine Information über das Gesetz, keine Rechtsberatung.",
+    "citations": [
+     "OR Art. 323"
+    ]
+   }
+  },
+  "99c4b3228628d92b513b4138f4bd9aa033c40903835c513b775bd9b2a889d91e": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "OR Art. 329a",
+     "OR Art. 345a",
+     "OR Art. 362",
+     "OR Art. 329c",
+     "OR Art. 329b",
+     "OR Art. 329d",
+     "OR Art. 329e",
+     "OR Art. 344a",
+     "OR Art. 329",
+     "OR Art. 329h",
+     "OR Art. 329g",
+     "OR Art. 329f",
+     "OR Art. 329i",
+     "OR Art. 329j",
+     "OR Art. 329gbis",
+     "OR Art. 335c",
+     "OR Art. 336c",
+     "OR Art. 328a",
+     "OR Art. 350",
+     "KVG Art. 16a"
+    ]
+   }
+  },
+  "9ab34451f32d5f77c4321661b6016ccba71f0298f0011f01adb972891cf20765": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Eine freiwillige Taggeldversicherung nach KVG kann abschliessen, wer in der Schweiz wohnt oder erwerbstätig ist und das 15., aber noch nicht das 65. Altersjahr vollendet hat. Sie müssen den Vertrag also abschliessen, bevor Sie 65 Jahre alt werden. Dafür können Sie einen anderen Versicherer wählen als für die Grundversicherung. Die Versicherung kann auch als Kollektivversicherung abgeschlossen werden, zum Beispiel über Ihren Arbeitgeber.",
+    "citations": [
+     "KVG Art. 67"
+    ]
+   }
+  },
+  "9ca0b15cfb2531b2d348a60550e395b8e0e84dccef63aca9578ce2b1f022492d": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Grundsätzlich können Sie den Versicherer der Grundversicherung mit einer dreimonatigen Kündigungsfrist auf das Ende eines Kalendersemesters wechseln, also auf Ende Juni oder Ende Dezember. Wird Ihnen eine neue Prämie mitgeteilt, können Sie mit einer einmonatigen Kündigungsfrist auf das Ende des Monats wechseln, der vor dem Inkrafttreten der neuen Prämie liegt; der Versicherer muss Ihnen die neue Prämie mindestens zwei Monate im Voraus mitteilen und Sie auf Ihr Wechselrecht hinweisen. Ihr bisheriges Versicherungsverhältnis endet erst, wenn der neue Versicherer dem bisherigen mitgeteilt hat, dass Sie bei ihm ohne Unterbrechung versichert sind. Den neuen Versicherer können Sie unter den zugelassenen Anbietern frei wählen.",
+    "citations": [
+     "KVG Art. 7",
+     "KVG Art. 4"
+    ]
+   }
+  },
+  "9e688dc431c9d28e03846f3b55981c14e715609000e438c9e3d289215c9d728b": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "OR Art. 321c",
+     "OR Art. 319",
+     "OR Art. 359",
+     "OR Art. 322d",
+     "OR Art. 362",
+     "OR Art. 361",
+     "OR Art. 326",
+     "OR Art. 323a",
+     "OR Art. 329d",
+     "OR Art. 324a",
+     "OR Art. 324b",
+     "OR Art. 359a",
+     "OR Art. 327a",
+     "OR Art. 351a",
+     "OR Art. 349c",
+     "OR Art. 327b",
+     "OR Art. 339c",
+     "OR Art. 329b",
+     "OR Art. 329e",
+     "OR Art. 337d"
+    ]
+   }
+  },
+  "9fb5cec6529c3aa08259dd3612a9aa8918ac7c90ab0ad88ddf06e41f87283f89": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Ein befristetes Arbeitsverhältnis endet grundsätzlich ohne Kündigung. Wird es aber nach Ablauf der vereinbarten Dauer stillschweigend fortgesetzt – wie in Ihrem Fall, wenn Sie weiter arbeiten und niemand etwas sagt –, gilt es als unbefristetes Arbeitsverhältnis. Ein solches Arbeitsverhältnis endet dann nur durch Kündigung; ab dem zweiten Dienstjahr gilt grundsätzlich eine Kündigungsfrist von zwei Monaten auf das Ende eines Monats, sofern nicht schriftlich oder per Normal- oder Gesamtarbeitsvertrag etwas anderes vereinbart wurde.",
+    "citations": [
+     "OR Art. 334",
+     "OR Art. 335c"
+    ]
+   }
+  },
+  "a15a4b7a5506c7bae59a2e6ce7d12bcab0bc240ab375653996c92672091df50b": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "KVG Art. 46",
+     "KVG Art. 37",
+     "KVG Art. 47",
+     "KVG Art. 44",
+     "KVG Art. 25",
+     "KVG Art. 58h",
+     "KVG Art. 57",
+     "KVG Art. 47a",
+     "KVG Art. 47c",
+     "KVG Art. 46a",
+     "KVG Art. 33",
+     "KVG Art. 52a",
+     "KVG Art. 26",
+     "KVG Art. 52",
+     "KVG Art. 47b",
+     "KVG Art. 59a",
+     "KVG Art. 25a",
+     "KVG Art. 39",
+     "KVG Art. 101",
+     "KVG Art. 53"
+    ]
+   }
+  },
+  "a249e89f3512eb8e8fdf0276c36335c990d9cbc803f6562b94f1729b0a4cebdb": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Wenn die Kündigung missbräuchlich ist, muss Ihr Arbeitgeber Ihnen eine Entschädigung zahlen. Das Gericht legt sie unter Würdigung aller Umstände fest, höchstens aber in Höhe von sechs Monatslöhnen; weitergehender Schadenersatz aus einem anderen Rechtsgrund bleibt vorbehalten (eine tiefere Obergrenze von zwei Monatslöhnen gilt nur für Kündigungen nach Art. 336 Abs. 2 Bst. c). Ob eine Kündigung wegen einer Lohnforderung tatsächlich missbräuchlich ist, regelt Art. 336, der hier nicht vorliegt. Wichtig: Sie müssen bis spätestens zum Ende der Kündigungsfrist schriftlich beim Arbeitgeber Einsprache erheben und innert 180 Tagen nach Ende des Arbeitsverhältnisses Klage einreichen, sonst verfällt der Anspruch.",
+    "citations": [
+     "OR Art. 336a",
+     "OR Art. 336b"
+    ]
+   }
+  },
+  "a2967584c70be42b56c106c6a6a6da3bf64b79a9167d0a308fcbd4334a07781f": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": false,
+    "answer": "Die angegebenen Artikel regeln nicht, ob Sie beim Verlassen der Firma eine schriftliche Beurteilung Ihrer Arbeit (ein Arbeitszeugnis) verlangen können.",
+    "citations": []
+   }
+  },
+  "a334cf1fde0655eb0366be39af74726dd560ba4680dc3aa7fe5c6d5d27661ee2": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Nach Ablauf der Probezeit darf der Arbeitgeber Ihnen während der Schwangerschaft und in den 16 Wochen nach der Geburt nicht kündigen; eine in dieser Sperrfrist ausgesprochene Kündigung ist nichtig. Wurde die Kündigung schon vor Beginn der Schwangerschaft ausgesprochen und läuft die Kündigungsfrist noch, wird sie unterbrochen und erst nach Ende der Sperrfrist fortgesetzt. Dieser Schutz gilt allerdings erst nach der Probezeit, die grundsätzlich der erste Monat ist und auf höchstens drei Monate verlängert werden kann.",
+    "citations": [
+     "OR Art. 336c",
+     "OR Art. 335b"
+    ]
+   }
+  },
+  "a50adec91c18b2f18dc658431900498ac16e599aaa78afbfafea27f606a61c60": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "OR Art. 324",
+     "OR Art. 362",
+     "OR Art. 353b",
+     "OR Art. 322",
+     "OR Art. 324a",
+     "OR Art. 349c",
+     "OR Art. 337c",
+     "OR Art. 337a",
+     "OR Art. 324b",
+     "OR Art. 353a",
+     "OR Art. 349a",
+     "OR Art. 354",
+     "OR Art. 351",
+     "OR Art. 351a",
+     "OR Art. 360a",
+     "OR Art. 322c",
+     "OR Art. 325",
+     "OR Art. 353",
+     "OR Art. 352",
+     "OR Art. 352a"
+    ]
+   }
+  },
+  "a556a2f3f94f8ccd5c27a1160a3d2d2b5104dfb801849af5cacef344ffdf38b0": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "OR Art. 352a",
+     "OR Art. 327",
+     "KVG Art. 78a",
+     "OR Art. 337d",
+     "OR Art. 337c",
+     "KVG Art. 7",
+     "OR Art. 339d",
+     "KVG Art. 42",
+     "OR Art. 336b",
+     "KVG Art. 70",
+     "KVG Art. 71",
+     "KVG Art. 69",
+     "KVG Art. 102",
+     "KVG Art. 103",
+     "KVG Art. 72",
+     "KVG Art. 64a",
+     "KVG Art. 46a",
+     "DSG Art. 19",
+     "OR Art. 331e",
+     "OR Art. 331f"
+    ]
+   }
+  },
+  "a60f9593945d0900cff096b8e3de2dd8fcd35bb39cc0845084df60d4eb07f690": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "KVG Art. 52a",
+     "KVG Art. 52",
+     "KVG Art. 25",
+     "KVG Art. 56",
+     "KVG Art. 33",
+     "KVG Art. 42",
+     "KVG Art. 41",
+     "KVG Art. 101",
+     "KVG Art. 47c",
+     "KVG Art. 59a",
+     "KVG Art. 46a",
+     "KVG Art. 1",
+     "KVG Art. 55a",
+     "KVG Art. 37",
+     "KVG Art. 39",
+     "KVG Art. 21",
+     "KVG Art. 82",
+     "KVG Art. 64a",
+     "KVG Art. 18",
+     "KVG Art. 7"
+    ]
+   }
+  },
+  "a68b67d740b8ff17a81a0381ae74089ca90758250e7672001ca31552147d8a70": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "DSG Art. 63",
+     "DSG Art. 60",
+     "DSG Art. 61",
+     "DSG Art. 62",
+     "DSG Art. 64",
+     "KVG Art. 59",
+     "KVG Art. 38",
+     "KVG Art. 47b",
+     "KVG Art. 47a",
+     "OR Art. 327b",
+     "DSG Art. 20",
+     "DSG Art. 19",
+     "DSG Art. 35",
+     "KVG Art. 79",
+     "KVG Art. 55a",
+     "KVG Art. 37",
+     "KVG Art. 65",
+     "OR Art. 331e",
+     "OR Art. 335d",
+     "OR Art. 340a"
+    ]
+   }
+  },
+  "a774d3da9a1f5c3a0e4baeb023b6fd9d6a4075b9615e88f5b9ca6a6ecc9d96b2": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "KVG Art. 34",
+     "KVG Art. 25",
+     "KVG Art. 24",
+     "KVG Art. 41",
+     "KVG Art. 28",
+     "KVG Art. 64",
+     "KVG Art. 42",
+     "KVG Art. 49",
+     "KVG Art. 49a",
+     "KVG Art. 33",
+     "KVG Art. 18",
+     "KVG Art. 29",
+     "KVG Art. 31",
+     "KVG Art. 30",
+     "KVG Art. 62",
+     "KVG Art. 9",
+     "KVG Art. 4a",
+     "KVG Art. 6a",
+     "KVG Art. 65a",
+     "KVG Art. 66a"
+    ]
+   }
+  },
+  "aa6dc2c33ac91951d1053226329e71200bd4ad40a0fb14061ff48c71f1a22252": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "OR Art. 321c",
+     "OR Art. 329",
+     "OR Art. 361",
+     "OR Art. 362",
+     "OR Art. 345a",
+     "OR Art. 329a",
+     "OR Art. 329c",
+     "OR Art. 329b",
+     "OR Art. 329e",
+     "OR Art. 329h",
+     "OR Art. 329i",
+     "OR Art. 328a",
+     "OR Art. 323a",
+     "OR Art. 324a",
+     "OR Art. 323",
+     "OR Art. 353b",
+     "OR Art. 340a",
+     "OR Art. 335d",
+     "OR Art. 335i",
+     "KVG Art. 73"
+    ]
+   }
+  },
+  "ac43671043456e1af79e606f74c6781490151dfb13f820a1c021775130f3112d": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "OR Art. 335c",
+     "OR Art. 335b",
+     "OR Art. 335a",
+     "OR Art. 334",
+     "OR Art. 356c",
+     "KVG Art. 7",
+     "DSG Art. 44",
+     "OR Art. 346",
+     "OR Art. 350",
+     "OR Art. 335",
+     "OR Art. 336c",
+     "OR Art. 335g",
+     "OR Art. 336b",
+     "OR Art. 337c",
+     "OR Art. 337d",
+     "OR Art. 336a",
+     "OR Art. 361",
+     "OR Art. 335d",
+     "OR Art. 335f",
+     "OR Art. 344a"
+    ]
+   }
+  },
+  "adad60ef9b8c462c8561daf71e46b868db50e77a802eeb0456c4ea0536ef1503": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "KVG Art. 25",
+     "KVG Art. 40",
+     "KVG Art. 33",
+     "KVG Art. 34",
+     "KVG Art. 36",
+     "KVG Art. 41",
+     "KVG Art. 43",
+     "KVG Art. 57",
+     "KVG Art. 49",
+     "KVG Art. 38",
+     "KVG Art. 31",
+     "KVG Art. 47a",
+     "KVG Art. 62",
+     "KVG Art. 52a",
+     "KVG Art. 41a",
+     "KVG Art. 18",
+     "KVG Art. 63",
+     "OR Art. 331",
+     "OR Art. 329b",
+     "OR Art. 339d"
+    ]
+   }
+  },
+  "b00db60804d1b00ceae3e03c6c54fa89b3b80275628e083d07932fa9367a1b01": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "KVG Art. 61",
+     "KVG Art. 65",
+     "KVG Art. 64",
+     "KVG Art. 61a",
+     "KVG Art. 16",
+     "KVG Art. 62",
+     "KVG Art. 16a",
+     "KVG Art. 66",
+     "KVG Art. 64a",
+     "KVG Art. 5",
+     "KVG Art. 58f",
+     "KVG Art. 7",
+     "KVG Art. 4a",
+     "KVG Art. 102",
+     "KVG Art. 27",
+     "KVG Art. 30",
+     "KVG Art. 50",
+     "KVG Art. 58d",
+     "OR Art. 331",
+     "OR Art. 324a"
+    ]
+   }
+  },
+  "b2b001ff98519ddb3a465e170457bf8ecaf61e4c8dad6bca6b139795cf4a5bab": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "OR Art. 329b",
+     "OR Art. 329a",
+     "OR Art. 324a",
+     "OR Art. 329c",
+     "OR Art. 329d",
+     "OR Art. 336c",
+     "OR Art. 328a",
+     "OR Art. 329",
+     "OR Art. 345a",
+     "OR Art. 329h",
+     "OR Art. 329i",
+     "OR Art. 329e",
+     "OR Art. 329f",
+     "OR Art. 329g",
+     "OR Art. 329gbis",
+     "OR Art. 335c",
+     "OR Art. 337d",
+     "OR Art. 349",
+     "OR Art. 350",
+     "KVG Art. 10"
+    ]
+   }
+  },
+  "b3116e60c75fdf2fddeecaa1502e62fa418460dbf8d9760def903037c3962f9b": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Ja, wenn Sie ohne eigenes Verschulden krank sind, muss Ihr Arbeitgeber den Lohn für eine beschränkte Zeit weiterzahlen, sofern das Arbeitsverhältnis mehr als drei Monate gedauert hat oder für mehr als drei Monate eingegangen wurde. Ohne andere Regelung in Ihrem Vertrag, einem Normalarbeitsvertrag oder einem Gesamtarbeitsvertrag sind es im ersten Dienstjahr drei Wochen, danach je nach Dauer des Arbeitsverhältnisses und den besonderen Umständen eine angemessen längere Zeit. Eine abweichende Regelung, etwa über eine Krankentaggeldversicherung, ist nur zulässig, wenn sie schriftlich vereinbart oder in einem Normal- oder Gesamtarbeitsvertrag geregelt und für Sie mindestens gleichwertig ist. Eine Versicherung nach dem KVG zahlt zum Beispiel mindestens 720 Tage innerhalb von 900 Tagen, wenn Sie mindestens zur Hälfte arbeitsunfähig sind.",
+    "citations": [
+     "OR Art. 324a",
+     "OR Art. 362",
+     "KVG Art. 72"
+    ]
+   }
+  },
+  "b7d685319f569c0e0eb319a443d6681f5332d386e88601d5e3f7997dae5f3e4a": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Wer in der Schweiz Wohnsitz nimmt, muss sich innert drei Monaten nach der Wohnsitznahme für Krankenpflege versichern. Bei verspätetem Beitritt beginnt die Versicherung erst im Zeitpunkt des Beitritts, und ist die Verspätung nicht entschuldbar, müssen Sie einen Prämienzuschlag bezahlen; dessen Höhe richtet sich nach den Prämien an Ihrem Wohnort und der Dauer der Verspätung. Würde Sie der Zuschlag in eine Notlage bringen, muss der Versicherer ihn unter Berücksichtigung Ihrer Lage und der Umstände der Verspätung herabsetzen.",
+    "citations": [
+     "KVG Art. 3",
+     "KVG Art. 5"
+    ]
+   }
+  },
+  "b9dc9f3a2ba047065e5f4002e569d846618f849fa2daac2ff3311041bce1cf91": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Ja, aber nur teilweise: Die obligatorische Krankenpflegeversicherung übernimmt bei ärztlich angeordneten Badekuren einen Beitrag an die Kosten, nicht die vollen Kosten. Voraussetzung ist zudem, dass das Thermalbad als Heilbad zugelassen ist, was eine Anerkennung durch das EDI erfordert; der Bundesrat legt dafür Anforderungen etwa an ärztliche Leitung, Fachpersonal, Heilanwendungen und Heilquellen fest. Andere als die gesetzlich vorgesehenen Leistungen darf die Grundversicherung nicht übernehmen. Wie hoch der Beitrag ist, regeln die vorliegenden Artikel nicht.",
+    "citations": [
+     "KVG Art. 25",
+     "KVG Art. 40",
+     "KVG Art. 34"
+    ]
+   }
+  },
+  "ba9f0bf98b01c114916bbf1441dd2793e92f7765520ccb7b48b3e1f166e7bd66": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "KVG Art. 5",
+     "KVG Art. 3",
+     "KVG Art. 6a",
+     "KVG Art. 61",
+     "KVG Art. 62",
+     "KVG Art. 64a",
+     "KVG Art. 7",
+     "KVG Art. 4a",
+     "KVG Art. 102",
+     "KVG Art. 66a",
+     "KVG Art. 105a",
+     "KVG Art. 42",
+     "KVG Art. 41",
+     "KVG Art. 34",
+     "KVG Art. 49a",
+     "KVG Art. 58f",
+     "KVG Art. 47b",
+     "KVG Art. 47c",
+     "KVG Art. 59",
+     "KVG Art. 37"
+    ]
+   }
+  },
+  "bb4e3c62bd6b55e265f3b9163e7638b08012bc094622c32d0e508dd057bd2030": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Ja, aber nicht in jedem Fall: Der Verantwortliche muss dem EDÖB (Eidgenössischer Datenschutz- und Öffentlichkeitsbeauftragter) eine Verletzung der Datensicherheit so rasch als möglich melden, wenn sie voraussichtlich zu einem hohen Risiko für die Persönlichkeit oder die Grundrechte der betroffenen Personen führt. Die Meldung muss mindestens die Art der Verletzung, deren Folgen und die ergriffenen oder vorgesehenen Massnahmen nennen; ein Auftragsbearbeiter muss eine Verletzung dem Verantwortlichen melden. Zusätzlich muss der Verantwortliche die betroffenen Personen informieren, wenn es zu ihrem Schutz erforderlich ist oder der EDÖB es verlangt, wobei gewisse Ausnahmen gelten, z. B. bei unverhältnismässigem Aufwand oder überwiegenden Interessen Dritter.",
+    "citations": [
+     "DSG Art. 24",
+     "DSG Art. 26"
+    ]
+   }
+  },
+  "bbae125a3fce5f48f7b2147fed814eaaa85ca2ccf76de92e2d34e129be666186": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": false,
+    "answer": "Die vorliegenden Artikel regeln, ob und wann die Krankenkasse Kosten für einen Unfall wie einen Beinbruch beim Skifahren übernimmt, nicht ausreichend.",
+    "citations": []
+   }
+  },
+  "bc30a9114a9af3f578ff960f9dcfa8617e1c6a538e2a7ec9bbf1ddeab4777f10": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": false,
+    "answer": "Die angegebenen Artikel regeln nicht, ob Sie bei einem nach drei Monaten defekten Handy Anspruch auf Garantie oder Ersatz haben; sie betreffen vor allem das Arbeitsrecht und die Krankenversicherung.",
+    "citations": []
+   }
+  },
+  "bd4cdb5dce5b6922b75553ea5ddeb9345e39fe8084db11653394cda38149ce1e": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "OR Art. 324a",
+     "KVG Art. 72",
+     "OR Art. 353b",
+     "OR Art. 362",
+     "OR Art. 336c",
+     "OR Art. 328a",
+     "OR Art. 329b",
+     "OR Art. 329h",
+     "OR Art. 329i",
+     "OR Art. 338",
+     "OR Art. 323a",
+     "OR Art. 353a",
+     "OR Art. 337c",
+     "OR Art. 329f",
+     "OR Art. 337d",
+     "OR Art. 350",
+     "OR Art. 353",
+     "OR Art. 335g",
+     "OR Art. 335d",
+     "KVG Art. 7"
+    ]
+   }
+  },
+  "bf2eea16c9ec9b1233e5080fe38867c259dd4365a625af0315d543b04fdb40a3": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "DSG Art. 21",
+     "DSG Art. 49",
+     "DSG Art. 35",
+     "DSG Art. 50",
+     "DSG Art. 9",
+     "DSG Art. 29",
+     "DSG Art. 24",
+     "DSG Art. 37",
+     "DSG Art. 33",
+     "OR Art. 322c",
+     "KVG Art. 42",
+     "KVG Art. 64a",
+     "KVG Art. 9",
+     "KVG Art. 42a",
+     "KVG Art. 21",
+     "KVG Art. 59a",
+     "KVG Art. 47b",
+     "KVG Art. 59abis",
+     "KVG Art. 58d",
+     "KVG Art. 82a"
+    ]
+   }
+  },
+  "c086f5f9f1c3eec035318d1ee80ae7c361357d9adb02ad06e62c2196e10ef233": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Die obligatorische Krankenpflegeversicherung (Grundversicherung) übernimmt bei Mutterschaft die Kosten für Kontrolluntersuchungen nach der Schwangerschaft durch Hebammen, die Geburtshilfe durch Hebammen sowie die notwendige Stillberatung; Hebammen sind dabei anerkannte Leistungserbringer. Für diese besonderen Mutterschaftsleistungen darf die Krankenkasse keine Kostenbeteiligung erheben, Sie zahlen also weder Franchise noch Selbstbehalt. Je nach Vereinbarung zwischen Krankenkasse und Hebamme stellt diese die Rechnung entweder direkt der Kasse oder Ihnen; im zweiten Fall bezahlen Sie zuerst und haben dann Anspruch auf Rückerstattung durch die Krankenkasse.",
+    "citations": [
+     "KVG Art. 29",
+     "KVG Art. 35",
+     "KVG Art. 64",
+     "KVG Art. 42"
+    ]
+   }
+  },
+  "c144a0892fd6d4fb1bfcc753aaa7d3001027507a76d7f5c26fdea181288351ed": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": false,
+    "answer": "Die vorliegenden Artikel regeln nur die Kaution im Arbeitsverhältnis und die Wohneigentumsförderung aus der beruflichen Vorsorge, nicht aber die Höhe oder Rückgabe einer Mietkaution, und decken Ihre Frage daher nicht ab.",
+    "citations": []
+   }
+  },
+  "c167416814a7c91a10f9b697afedda01721016d0a1751ca7ccb8bda4df33d46b": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "OR Art. 330",
+     "OR Art. 339a",
+     "OR Art. 331e",
+     "OR Art. 331d",
+     "OR Art. 331f",
+     "OR Art. 352a",
+     "OR Art. 339c",
+     "OR Art. 337d",
+     "OR Art. 336a",
+     "OR Art. 337c",
+     "OR Art. 336b",
+     "KVG Art. 7",
+     "KVG Art. 61",
+     "KVG Art. 65",
+     "KVG Art. 62",
+     "KVG Art. 70",
+     "KVG Art. 18",
+     "KVG Art. 79a",
+     "OR Art. 335g",
+     "OR Art. 335f"
+    ]
+   }
+  },
+  "c1e0cb3cbe37c7dcb43bdc8836f34e31815ef61aba346d824a0b86baf55da3cb": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Wenn Sie im Einverständnis mit Ihrem Arbeitgeber Ihr eigenes Auto für die Arbeit benützen, muss der Arbeitgeber Ihnen die üblichen Kosten für Betrieb und Unterhalt (z. B. Benzin) im Umfang der beruflichen Nutzung vergüten. Weil es Ihr eigenes Fahrzeug ist, muss er Ihnen zusätzlich eine angemessene Entschädigung für die Abnützung (Verschleiss) sowie anteilig die öffentlichen Abgaben für das Fahrzeug und die Prämien der Haftpflichtversicherung bezahlen. Massgebend ist jeweils, wie stark das Auto für die Arbeit gebraucht wird.",
+    "citations": [
+     "OR Art. 327b"
+    ]
+   }
+  },
+  "c24ccb2043a4bd8b0c55f59ee0deae258cf57952342d397a45a2a4b3d0860734": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": false,
+    "answer": "Die vorliegenden Artikel regeln zwar die Informationspflicht und eine Busse für die Verletzung der beruflichen Schweigepflicht, aber nicht, wie hoch eine Busse für das absichtliche Verschweigen der Datenbearbeitung ausfallen kann.",
+    "citations": []
+   }
+  },
+  "c2ca48528bbdd0b14502cc7a48741a8158fb12bcd33eb9690bf2bed21c57a943": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": false,
+    "answer": "Die vorliegenden Artikel regeln nicht, ob sich eine Arzthelferin strafbar macht, wenn sie Gesundheitsinformationen über einen Patienten weitererzählt.",
+    "citations": []
+   }
+  },
+  "c42a662356f67883189ea64ab5abccd741e139f7dc514559a8c7fd621432f323": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "KVG Art. 25",
+     "KVG Art. 9",
+     "KVG Art. 31",
+     "KVG Art. 64",
+     "KVG Art. 41",
+     "KVG Art. 42",
+     "KVG Art. 102",
+     "KVG Art. 64a",
+     "KVG Art. 62",
+     "KVG Art. 5",
+     "KVG Art. 18",
+     "KVG Art. 45",
+     "KVG Art. 58f",
+     "KVG Art. 4a",
+     "KVG Art. 6a",
+     "KVG Art. 66a",
+     "KVG Art. 99",
+     "KVG Art. 47a",
+     "KVG Art. 47b",
+     "KVG Art. 105a"
+    ]
+   }
+  },
+  "c591365a60ea81f475f781c7e9458748d434eac0067e31cc6cef2dbe81300a4b": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": false,
+    "answer": "Die vorliegenden Artikel aus dem Datenschutzgesetz (DSG) regeln keine Bussen für Geschwindigkeitsüberschreitungen im Strassenverkehr und beantworten Ihre Frage daher nicht.",
+    "citations": []
+   }
+  },
+  "c7dcdedc8aef9adf20a150b0dfc2d411a58b616602ee4fc5f27dce45cdb3797a": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": false,
+    "answer": "Die vorliegenden Artikel regeln nicht, ob das Datenschutzgesetz auf die Bearbeitung von Personendaten zum ausschliesslich persönlichen Gebrauch, etwa in einem privaten Adressbuch oder Fotoalbum, überhaupt anwendbar ist.",
+    "citations": []
+   }
+  },
+  "ca79e015aa345448c7e188dccb1023479781e654b956f519657a895ba64d1479": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Ja, Sie können vom Streaming-Dienst verlangen, dass er Ihnen die Personendaten, die Sie ihm selbst bekanntgegeben haben, in einem gängigen elektronischen Format herausgibt. Voraussetzung ist, dass er die Daten automatisiert bearbeitet und dies mit Ihrer Einwilligung oder im Zusammenhang mit Ihrem Vertrag geschieht. Sie können auch verlangen, dass er die Daten direkt dem neuen Anbieter überträgt, sofern das keinen unverhältnismässigen Aufwand erfordert. Herausgabe oder Übertragung sind grundsätzlich kostenlos; der Anbieter kann sie nur aus bestimmten gesetzlichen Gründen verweigern, einschränken oder aufschieben und muss dies begründen.",
+    "citations": [
+     "DSG Art. 28",
+     "DSG Art. 29"
+    ]
+   }
+  },
+  "ccd731043a43d7d2f3166dfe108881888ed0bae6c916b9d39ac1ffc3079c86ee": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Grundsätzlich haften Sie gegenüber dem Arbeitgeber für Schäden, die Sie absichtlich oder fahrlässig verursachen; ein Versehen kann also fahrlässig sein und eine Haftung begründen (OR Art. 321e Abs. 1). Wie viel Sorgfalt von Ihnen erwartet wird, hängt aber vom konkreten Arbeitsverhältnis ab, etwa vom Berufsrisiko, von den verlangten Fachkenntnissen sowie von Ihren Fähigkeiten, die der Arbeitgeber kannte oder hätte kennen sollen (OR Art. 321e Abs. 2). Ob und in welchem Umfang Sie zahlen müssen, hängt deshalb davon ab, wie schwer die Unachtsamkeit im Einzelfall wiegt. Falls Sie als Heimarbeitnehmer tätig sind, haften Sie bei schuldhafter Beschädigung von übergebenen Geräten höchstens für den Ersatz der Selbstkosten (OR Art. 352a Abs. 3).",
+    "citations": [
+     "OR Art. 321e",
+     "OR Art. 352a"
+    ]
+   }
+  },
+  "cd5d37481838b37bb990e7ebd9893c39676a13e4329f02d7da8fd0a63dd52291": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "OR Art. 336a",
+     "OR Art. 336b",
+     "OR Art. 337c",
+     "OR Art. 361",
+     "OR Art. 362",
+     "OR Art. 339c",
+     "OR Art. 337b",
+     "OR Art. 337d",
+     "OR Art. 324",
+     "OR Art. 339d",
+     "OR Art. 323a",
+     "OR Art. 325",
+     "OR Art. 339a",
+     "OR Art. 330",
+     "OR Art. 360e",
+     "OR Art. 360a",
+     "OR Art. 335j",
+     "OR Art. 335f",
+     "OR Art. 326",
+     "OR Art. 327b"
+    ]
+   }
+  },
+  "cdf6e4e365d3d1a8a3a24dc4a7ab48747b45cbf3f6c31a4edf2db009d63eefb5": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "DSG Art. 12",
+     "DSG Art. 6",
+     "DSG Art. 19",
+     "DSG Art. 15",
+     "DSG Art. 25",
+     "DSG Art. 20",
+     "DSG Art. 31",
+     "OR Art. 328b",
+     "DSG Art. 34",
+     "DSG Art. 39",
+     "KVG Art. 59a",
+     "KVG Art. 23",
+     "KVG Art. 21",
+     "KVG Art. 47b",
+     "KVG Art. 47a",
+     "KVG Art. 42a",
+     "OR Art. 330b",
+     "OR Art. 335f",
+     "OR Art. 349",
+     "KVG Art. 82"
+    ]
+   }
+  },
+  "ceddcb6d57596fc75865b0d11bf1c70756d924f88aa1f75a1d439a8a07f85e38": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": false,
+    "answer": "Die vorliegenden Artikel regeln nicht, wie lange Arbeitslosentaggeld nach einer Kündigung ausgerichtet wird.",
+    "citations": []
+   }
+  },
+  "d1388a6c65a890c283446dbdb53de139d64cb2bd176026476d7eb0dc3162d1d5": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "OR Art. 330b",
+     "OR Art. 351a",
+     "OR Art. 347a",
+     "OR Art. 360",
+     "OR Art. 349a",
+     "OR Art. 323",
+     "OR Art. 331",
+     "OR Art. 324a",
+     "OR Art. 328",
+     "OR Art. 328a",
+     "OR Art. 337d",
+     "OR Art. 353",
+     "OR Art. 348",
+     "OR Art. 339c",
+     "OR Art. 337",
+     "OR Art. 336b",
+     "OR Art. 335f",
+     "OR Art. 335g",
+     "OR Art. 335e",
+     "OR Art. 350a"
+    ]
+   }
+  },
+  "d29ab7e105b32c7cb98c05dcf875029569708b3dcea8ac3c9cd02efee2070843": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "KVG Art. 26",
+     "KVG Art. 56a",
+     "KVG Art. 41",
+     "KVG Art. 42",
+     "KVG Art. 20",
+     "KVG Art. 52",
+     "KVG Art. 27",
+     "KVG Art. 31",
+     "KVG Art. 64a",
+     "KVG Art. 47a",
+     "KVG Art. 18",
+     "KVG Art. 16",
+     "KVG Art. 21",
+     "KVG Art. 47b",
+     "KVG Art. 63",
+     "KVG Art. 10",
+     "KVG Art. 6a",
+     "KVG Art. 65a",
+     "KVG Art. 66a",
+     "KVG Art. 59abis"
+    ]
+   }
+  },
+  "d2c0e0f317a9e0b423ca476bd48303ccdce8e785ea05aedc30b20262e019964d": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "DSG Art. 2",
+     "DSG Art. 14",
+     "DSG Art. 16",
+     "DSG Art. 4",
+     "DSG Art. 51",
+     "DSG Art. 58",
+     "DSG Art. 55",
+     "DSG Art. 10",
+     "DSG Art. 24",
+     "DSG Art. 20",
+     "DSG Art. 26",
+     "DSG Art. 59",
+     "DSG Art. 50",
+     "DSG Art. 52",
+     "DSG Art. 53",
+     "DSG Art. 54",
+     "DSG Art. 48",
+     "DSG Art. 65",
+     "KVG Art. 95a",
+     "KVG Art. 59abis"
+    ]
+   }
+  },
+  "d8ac925722b0de1a9643cfe92aad922159bbd77eaecf959f0caea81aeac00e36": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": false,
+    "answer": "Die vorliegenden Artikel regeln zwar die Dauer des Mutterschaftsurlaubs, aber nicht, wie viel Prozent des Lohns als Mutterschaftsentschädigung ausbezahlt werden.",
+    "citations": []
+   }
+  },
+  "dd524593fb31fcb3bb652ada5c0fb694416207530527aaa0abaa8483fd60ce65": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "OR Art. 324b",
+     "KVG Art. 1a",
+     "KVG Art. 72",
+     "KVG Art. 8",
+     "KVG Art. 28",
+     "KVG Art. 10",
+     "KVG Art. 73",
+     "KVG Art. 67",
+     "KVG Art. 74",
+     "KVG Art. 69",
+     "KVG Art. 70",
+     "KVG Art. 71",
+     "KVG Art. 76",
+     "KVG Art. 77",
+     "OR Art. 362",
+     "OR Art. 327a",
+     "OR Art. 329i",
+     "KVG Art. 102",
+     "KVG Art. 98",
+     "OR Art. 339b"
+    ]
+   }
+  },
+  "e5144e70b081e2af9e62cc821ca7c9cdaf44196515bbda167a3ff4dc2c197734": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "DSG Art. 5",
+     "DSG Art. 6",
+     "DSG Art. 30",
+     "DSG Art. 31",
+     "KVG Art. 84",
+     "DSG Art. 25",
+     "DSG Art. 24",
+     "DSG Art. 36",
+     "OR Art. 328b",
+     "DSG Art. 19",
+     "DSG Art. 20",
+     "DSG Art. 26",
+     "DSG Art. 17",
+     "DSG Art. 27",
+     "KVG Art. 21",
+     "KVG Art. 59a",
+     "OR Art. 328",
+     "DSG Art. 55",
+     "DSG Art. 54",
+     "KVG Art. 56a"
+    ]
+   }
+  },
+  "e5c1f4caaccd0a1a174bc9ea6ec0f237f2edb7e6681dc6a72c4e124c1ac09e63": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Wenn Sie das Kind selbst gebären, haben Sie nach der Geburt Anspruch auf einen Mutterschaftsurlaub von mindestens 14 Wochen. Muss das Neugeborene ins Spital, verlängert sich dieser Urlaub um die verlängerte Dauer der Mutterschaftsentschädigung. Sind Sie hingegen der andere Elternteil (z. B. der Vater), stehen Ihnen zwei Wochen Urlaub zu, die Sie innerhalb von sechs Monaten nach der Geburt wochen- oder tageweise beziehen können. In beiden Fällen darf Ihr Arbeitgeber Ihre Ferien wegen dieses Urlaubs nicht kürzen.",
+    "citations": [
+     "OR Art. 329f",
+     "OR Art. 329g",
+     "OR Art. 329b"
+    ]
+   }
+  },
+  "e81d92995b07c9f564cfd0623d8abc4ab159e3d289eb2251d3347c7dbbafdc4e": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "OR Art. 331e",
+     "OR Art. 331d",
+     "OR Art. 325",
+     "OR Art. 338",
+     "OR Art. 330",
+     "OR Art. 339a",
+     "OR Art. 337b",
+     "OR Art. 331",
+     "OR Art. 99",
+     "KVG Art. 99",
+     "OR Art. 335j",
+     "OR Art. 338a",
+     "OR Art. 322",
+     "OR Art. 321b",
+     "OR Art. 323a",
+     "OR Art. 339c",
+     "OR Art. 324a",
+     "OR Art. 362",
+     "OR Art. 328a",
+     "KVG Art. 71",
+     "KVG Art. 7"
+    ]
+   }
+  },
+  "e879b319a566bb904a7effa29ddb6ad9d67fdbb49034a1b9bcdd03813bf30f5b": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "OR Art. 329",
+     "OR Art. 362",
+     "OR Art. 321c",
+     "OR Art. 345a",
+     "OR Art. 329a",
+     "OR Art. 329c",
+     "OR Art. 329h",
+     "OR Art. 329e",
+     "OR Art. 329b",
+     "OR Art. 361",
+     "OR Art. 328a",
+     "OR Art. 329f",
+     "OR Art. 329gbis",
+     "OR Art. 323",
+     "OR Art. 324a",
+     "OR Art. 335c",
+     "OR Art. 336c",
+     "OR Art. 338",
+     "KVG Art. 72",
+     "KVG Art. 73"
+    ]
+   }
+  },
+  "e89995e3e7114e1bf2402fb9f0237210ca2aa16268423aca7aaf89e97521e2e5": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Die Grundversicherung übernimmt laut Gesetz die Kosten für bestimmte Untersuchungen zur frühzeitigen Erkennung von Krankheiten sowie für vorsorgliche Massnahmen bei Versicherten, die in erhöhtem Masse gefährdet sind. Die Untersuchung muss von einem Arzt oder einer Ärztin durchgeführt oder angeordnet werden. Ob die Darmspiegelung zur Krebsfrüherkennung zu diesen bestimmten Untersuchungen gehört und unter welchen Voraussetzungen, etwa Alter oder Risiko, sagt der vorliegende Artikel nicht. Dafür müssten Sie die genauere Regelung bei Ihrer Krankenkasse oder in den Ausführungsbestimmungen nachprüfen.",
+    "citations": [
+     "KVG Art. 26"
+    ]
+   }
+  },
+  "ec36651178517e4ef0c5e3bb926c542f0be588b78da7941b0951091e986ab725": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": false,
+    "answer": "Die vorliegenden Artikel regeln nicht, ob Sie während Ihrer Anstellung nebenbei gegen Bezahlung für eine andere Firma arbeiten dürfen.",
+    "citations": []
+   }
+  },
+  "ec378996ce9959e1b0f58465d0f1dbdaab03d6baa34636aba532cd92c5e023f7": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "OR Art. 323",
+     "OR Art. 323a",
+     "OR Art. 330b",
+     "OR Art. 337a",
+     "OR Art. 322d",
+     "OR Art. 361",
+     "OR Art. 324a",
+     "OR Art. 338",
+     "OR Art. 335c",
+     "OR Art. 336a",
+     "OR Art. 337d",
+     "OR Art. 329",
+     "OR Art. 329a",
+     "OR Art. 328a",
+     "OR Art. 336c",
+     "OR Art. 331a",
+     "OR Art. 331d",
+     "KVG Art. 72",
+     "KVG Art. 73",
+     "KVG Art. 74"
+    ]
+   }
+  },
+  "ec8b7936e833b059031d111618661f92ff222ef889b6f6e1ddedddbcab006873": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "OR Art. 337",
+     "OR Art. 346",
+     "OR Art. 337a",
+     "OR Art. 337c",
+     "OR Art. 337b",
+     "OR Art. 337d",
+     "OR Art. 349",
+     "OR Art. 335c",
+     "OR Art. 335g",
+     "OR Art. 335d",
+     "OR Art. 335e",
+     "OR Art. 336b",
+     "OR Art. 335k",
+     "OR Art. 349e",
+     "OR Art. 323",
+     "OR Art. 353",
+     "KVG Art. 99",
+     "KVG Art. 97",
+     "KVG Art. 80",
+     "DSG Art. 24"
+    ]
+   }
+  },
+  "ed8bb3fa78721cb3bb295222f78b1081ffbd0860fde9ad2f817490e593a3fdad": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "KVG Art. 41",
+     "KVG Art. 41a",
+     "KVG Art. 49a",
+     "KVG Art. 39",
+     "KVG Art. 47",
+     "KVG Art. 49",
+     "KVG Art. 42",
+     "KVG Art. 51",
+     "KVG Art. 57",
+     "KVG Art. 101",
+     "KVG Art. 46",
+     "KVG Art. 38",
+     "KVG Art. 36a",
+     "KVG Art. 37",
+     "KVG Art. 55a",
+     "KVG Art. 55b",
+     "KVG Art. 64a",
+     "KVG Art. 6a",
+     "KVG Art. 65",
+     "KVG Art. 65a"
+    ]
+   }
+  },
+  "eea4c5560b78c7b8a7cc2a9519da64a120de624f17de0d91326b7c7097bb4541": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "DSG Art. 16",
+     "DSG Art. 24",
+     "DSG Art. 6",
+     "DSG Art. 14",
+     "DSG Art. 15",
+     "DSG Art. 41",
+     "KVG Art. 21",
+     "KVG Art. 59a",
+     "KVG Art. 47b",
+     "KVG Art. 59abis",
+     "KVG Art. 47a",
+     "KVG Art. 6a",
+     "KVG Art. 18",
+     "KVG Art. 59b",
+     "KVG Art. 47c",
+     "KVG Art. 41",
+     "KVG Art. 4a",
+     "KVG Art. 66a",
+     "KVG Art. 65a",
+     "KVG Art. 101"
+    ]
+   }
+  },
+  "f26523a4f7268e90b3ed2a41f9d708bb550e469e8ceb78b0aed3e2c5eda2f9ac": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "KVG Art. 7",
+     "KVG Art. 4",
+     "KVG Art. 61",
+     "KVG Art. 62",
+     "KVG Art. 56a",
+     "KVG Art. 41",
+     "KVG Art. 4a",
+     "KVG Art. 70",
+     "KVG Art. 67",
+     "KVG Art. 71",
+     "KVG Art. 6a",
+     "KVG Art. 18",
+     "KVG Art. 10",
+     "KVG Art. 66a",
+     "KVG Art. 65a",
+     "KVG Art. 43",
+     "KVG Art. 52a",
+     "KVG Art. 82",
+     "KVG Art. 53",
+     "KVG Art. 36"
+    ]
+   }
+  },
+  "f69aff15f3e1d9023365c988c5125d0b23dabcfbb7381202d22168d7ec2d97ff": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": false,
+    "answer": "Die vorliegenden Artikel des Schweizer Datenschutzgesetzes regeln nicht, ob die europäische DSGVO für einen Onlineshop in Zürich gilt.",
+    "citations": []
+   }
+  },
+  "f6ea193c5ea133ac9c821763cb0b6b889bec6a6a8c09654482ba23b40db30b55": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "OR Art. 335c",
+     "OR Art. 335a",
+     "OR Art. 336c",
+     "OR Art. 335",
+     "OR Art. 335b",
+     "OR Art. 337",
+     "OR Art. 335g",
+     "OR Art. 337c",
+     "OR Art. 336b",
+     "OR Art. 336a",
+     "OR Art. 333",
+     "OR Art. 335d",
+     "OR Art. 335f",
+     "OR Art. 361",
+     "OR Art. 336d",
+     "OR Art. 346",
+     "OR Art. 337d",
+     "OR Art. 324a",
+     "OR Art. 356c",
+     "KVG Art. 7"
+    ]
+   }
+  },
+  "f76bf5f6989fb79df1f712a3aef54041166ea5f014931fe22dc7b9e7630ee388": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "DSG Art. 28",
+     "DSG Art. 29",
+     "DSG Art. 5",
+     "DSG Art. 6",
+     "DSG Art. 31",
+     "DSG Art. 27",
+     "DSG Art. 17",
+     "DSG Art. 18",
+     "DSG Art. 24",
+     "DSG Art. 36",
+     "DSG Art. 34",
+     "DSG Art. 61",
+     "DSG Art. 62",
+     "DSG Art. 69",
+     "KVG Art. 84a",
+     "KVG Art. 42",
+     "KVG Art. 47b",
+     "KVG Art. 59a",
+     "KVG Art. 21",
+     "KVG Art. 84"
+    ]
+   }
+  },
+  "fa7202fcc203c5ae2349fd8b4e1ad4813917031c8705118907d188f2653bc246": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "OR Art. 335c",
+     "OR Art. 346",
+     "OR Art. 337d",
+     "OR Art. 329",
+     "OR Art. 337c",
+     "OR Art. 339",
+     "OR Art. 336b",
+     "OR Art. 335g",
+     "OR Art. 329a",
+     "OR Art. 323a",
+     "OR Art. 329c",
+     "OR Art. 338",
+     "OR Art. 335i",
+     "OR Art. 329e",
+     "OR Art. 329g",
+     "OR Art. 329gbis",
+     "OR Art. 329f",
+     "OR Art. 329j",
+     "OR Art. 329i",
+     "OR Art. 353"
+    ]
+   }
+  },
+  "fbf41322378df2db3a2b777975994c7b7234912b411378e015a626d2974c23e4": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Ein Bonus, den der Arbeitgeber neben dem Lohn zu einem bestimmten Anlass wie Weihnachten zahlt, gilt als Sondervergütung (Gratifikation). Einen Anspruch darauf haben Sie nur, wenn die Zahlung mit Ihrem Arbeitgeber verabredet ist. Dass Sie den Bonus letztes Jahr bekommen haben, begründet laut dem Artikel allein noch keinen Anspruch. Ob eine solche Abrede besteht und ob eine frühere Zahlung als Abrede gelten kann, regelt der Artikel nicht; prüfen Sie daher Ihren Arbeitsvertrag oder andere Vereinbarungen.",
+    "citations": [
+     "OR Art. 322d"
+    ]
+   }
+  },
+  "fd1cbaf11971ed12b238d36fe3a894d28443e7ab0777f10f5673f3a1d99a695d": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Das Datenschutzgesetz gilt allgemein für die Bearbeitung von Personendaten natürlicher Personen durch private Personen, und dazu gehört etwa das Beschaffen, Speichern und Verwenden von Kundendaten (DSG Art. 2, DSG Art. 5). Dass auch ausländische Anbieter erfasst sein können, zeigt DSG Art. 51: Der EDÖB kann einem privaten Verantwortlichen mit Sitz im Ausland anordnen, eine Vertretung nach Artikel 14 zu bezeichnen, und gegen Verstösse Massnahmen verfügen. Nach welchen genauen Kriterien ein Anbieter mit Sitz im Ausland unter das Gesetz fällt (räumlicher Geltungsbereich), regeln die vorliegenden Artikel allerdings nicht ausdrücklich. Dies ist eine Information zur Rechtslage, keine Rechtsberatung.",
+    "citations": [
+     "DSG Art. 2",
+     "DSG Art. 5",
+     "DSG Art. 51"
+    ]
+   }
+  },
+  "fe1ca0bcd81c9ea53905ba5f34b2ba1822a293ee0aa2ce1161130967dac14c70": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "KVG Art. 64a",
+     "KVG Art. 64",
+     "KVG Art. 65",
+     "KVG Art. 7",
+     "KVG Art. 42",
+     "KVG Art. 20",
+     "KVG Art. 58f",
+     "KVG Art. 49a",
+     "KVG Art. 102",
+     "KVG Art. 99",
+     "KVG Art. 98",
+     "KVG Art. 103",
+     "KVG Art. 55b",
+     "KVG Art. 54",
+     "KVG Art. 54a",
+     "KVG Art. 47a",
+     "KVG Art. 38",
+     "OR Art. 331",
+     "OR Art. 328a",
+     "OR Art. 329a"
+    ]
+   }
+  },
+  "fe22d440480531d61812ca60efcfd954143942faab16c6ce93031bd3589d7f33": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "DSG Art. 37",
+     "DSG Art. 36",
+     "DSG Art. 41",
+     "DSG Art. 34",
+     "DSG Art. 39",
+     "DSG Art. 49",
+     "DSG Art. 51",
+     "DSG Art. 31",
+     "DSG Art. 26",
+     "DSG Art. 20",
+     "DSG Art. 16",
+     "DSG Art. 50",
+     "DSG Art. 53",
+     "DSG Art. 24",
+     "DSG Art. 29",
+     "DSG Art. 38",
+     "DSG Art. 54",
+     "KVG Art. 21",
+     "KVG Art. 59a",
+     "KVG Art. 47b"
+    ]
+   }
+  },
+  "feb45b2524e3f3e6df3ae874f844a769f346909330cfb5ec2e07f7ad607c3b3a": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Grundsätzlich muss jedes Unternehmen ein Verzeichnis seiner Bearbeitungstätigkeiten führen, das unter anderem den Bearbeitungszweck sowie die Kategorien der betroffenen Personen und der bearbeiteten Personendaten enthält. Das Gesetz sieht aber vor, dass der Bundesrat Ausnahmen für Unternehmen mit weniger als 250 Mitarbeitenden schafft, sofern deren Datenbearbeitung nur ein geringes Risiko für die Persönlichkeit der Betroffenen mit sich bringt; mit 20 Angestellten könnte Ihre Firma also davon befreit sein. Die genauen Voraussetzungen dieser Ausnahme legt der Bundesrat fest; sie stehen nicht in den vorliegenden Artikeln. Unabhängig davon müssen Sie Ihre Kunden bei der Beschaffung ihrer Daten unter anderem über den Bearbeitungszweck informieren.",
+    "citations": [
+     "DSG Art. 12",
+     "DSG Art. 19"
+    ]
+   }
+  },
+  "febda8c557880388b04f20857d76c1a8f86c0af15ae9833e0cf4bddcb3f8d3d3": {
+   "task": "answer",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "answerable": true,
+    "answer": "Grundsätzlich dürfen Personendaten nur ins Ausland bekanntgegeben werden, wenn der Bundesrat dem Staat einen angemessenen Schutz bescheinigt hat oder ein geeigneter Datenschutz, etwa durch Vertragsklauseln, gewährleistet ist. Davon abweichend ist die Bekanntgabe aber auch erlaubt, wenn sie in unmittelbarem Zusammenhang mit dem Abschluss oder der Abwicklung eines Vertrags steht – auch eines Vertrags zwischen dem Reisebüro und seinem Vertragspartner im Interesse der betroffenen Person – oder wenn Sie ausdrücklich eingewilligt haben. Die Weitergabe Ihrer Passdaten an den thailändischen Anbieter zur Abwicklung Ihrer Reisebuchung dürfte daher unter diese Ausnahme fallen. Das Reisebüro muss Sie allerdings über die Bekanntgabe ins Ausland informieren, einschliesslich des Staates und der angewendeten Ausnahme.",
+    "citations": [
+     "DSG Art. 16",
+     "DSG Art. 17",
+     "DSG Art. 19"
+    ]
+   }
+  },
+  "ff8827485bfa91976f849b2bf7e63fc5332631f228e6b291a939cf959c456f31": {
+   "task": "rerank",
+   "served_by": "claude-opus-5-5",
+   "output": {
+    "ranking": [
+     "DSG Art. 30",
+     "DSG Art. 6",
+     "DSG Art. 31",
+     "DSG Art. 32",
+     "DSG Art. 7",
+     "DSG Art. 22",
+     "DSG Art. 28",
+     "DSG Art. 18",
+     "DSG Art. 16",
+     "DSG Art. 17",
+     "DSG Art. 29",
+     "DSG Art. 51",
+     "DSG Art. 40",
+     "DSG Art. 15",
+     "DSG Art. 50",
+     "DSG Art. 33",
+     "DSG Art. 36",
+     "DSG Art. 39",
+     "OR Art. 328b",
+     "DSG Art. 54"
+    ]
+   }
+  }
+ }
+}

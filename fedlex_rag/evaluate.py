@@ -44,6 +44,46 @@ class Scores:
     misses: list[str]
 
 
+def pool_recall(pipeline, questions: list[Question]) -> float:
+    """How often an expected article is among the rerank's candidates at all -- the rerank's ceiling."""
+    answerable = [q for q in questions if q.expected]
+    hit = sum(bool({a.id for a in pipeline.candidates(q.question)} & set(q.expected)) for q in answerable)
+    return hit / len(answerable)
+
+
+@dataclass(frozen=True)
+class AnswerScores:
+    n_answerable: int
+    n_unanswerable: int
+    cited: float           # answerable questions answered AND citing an expected article
+    false_refusal: float   # answerable questions refused
+    refusal: float         # unanswerable questions correctly refused
+    unsupported: int       # citations of an article that was not in the context
+    misses: list[str]
+
+
+def evaluate_answers(pipeline, questions: list[Question]) -> AnswerScores:
+    ok = refused_answerable = refused_unanswerable = unsupported = 0
+    misses = []
+    for q in questions:
+        _, answer = pipeline.ask(q.question)
+        unsupported += len(answer.unsupported)
+        if q.expected:
+            good = answer.answerable and bool(set(answer.citations) & set(q.expected))
+            ok += good
+            refused_answerable += not answer.answerable
+            if not good:
+                misses.append(q.id)
+        else:
+            refused_unanswerable += not answer.answerable
+            if answer.answerable:
+                misses.append(q.id)
+    n_a = sum(bool(q.expected) for q in questions)
+    n_u = len(questions) - n_a
+    return AnswerScores(n_a, n_u, ok / n_a, refused_answerable / n_a,
+                        refused_unanswerable / n_u if n_u else float("nan"), unsupported, misses)
+
+
 def evaluate(retriever, questions: list[Question], k: int = 5) -> Scores:
     answerable = [q for q in questions if q.expected]
     recall = hit1 = mrr = 0.0
