@@ -20,7 +20,7 @@ from fedlex_rag.rag import Pipeline  # noqa: E402
 
 BG, INK, MUTED, GRID = "#12151b", "#e6e9ef", "#9aa3b2", "#2a303b"
 CITED, NEIGHBOUR, REFUSED = "#3987e5", "#d95926", "#199e70"   # validated: dark, surface #12151b
-WIDE_POOL = 50
+NARROW_POOL = 20   # the pool the first recordings used, kept as a reference line
 
 articles, questions = load_articles(), load_questions()
 dense = Dense(articles, CachedEmbedder(E5Embedder()))
@@ -29,7 +29,7 @@ stages = [("BM25", evaluate(BM25(articles), questions).recall),
           ("dense (E5)", evaluate(dense, questions).recall),
           ("dense + rerank", evaluate(pipeline, questions).recall)]
 ceiling = pool_recall(pipeline, questions)
-wide = pool_recall(Pipeline(dense, None, pool=WIDE_POOL), questions)
+narrow = pool_recall(Pipeline(dense, None, pool=NARROW_POOL), questions)
 
 cited = neighbour = refused = unanswerable = refused_out = 0
 for q in questions:
@@ -72,12 +72,12 @@ for i, (name, value) in enumerate(reversed(stages)):
     bar(ax, 0, i, value, 0.46, CITED)
     ax.text(-0.02, i, name, color=INK, fontsize=12, ha="right", va="center")
     ax.text(value - 0.015, i, pct(value), color=BG, fontsize=12, ha="right", va="center", fontweight="bold")
-for x in (ceiling, wide):
+for x in (narrow, ceiling):
     ax.axvline(x, color=MUTED, linewidth=1, linestyle=(0, (3, 3)), ymax=0.9)
-ax.text(ceiling - 0.01, 2.62, f"rerank ceiling\n20 candidates: {pct(ceiling)}", color=MUTED, fontsize=9.5,
+ax.text(narrow - 0.01, 2.62, f"{NARROW_POOL} candidates\n{pct(narrow)}", color=MUTED, fontsize=9.5,
         ha="right", va="bottom")
-ax.text(wide + 0.01, 2.62, f"wider pool\n{WIDE_POOL} candidates: {pct(wide)}", color=MUTED, fontsize=9.5,
-        ha="left", va="bottom")
+ax.text(ceiling + 0.01, 2.62, f"rerank ceiling\n{pipeline.pool} candidates: {pct(ceiling)}", color=MUTED,
+        fontsize=9.5, ha="left", va="bottom")
 ax.set_xlim(0, 1)
 ax.set_ylim(-0.6, 3.15)
 ax.set_title("Recall@5: the right article in the top five", color=INK, fontsize=12.5, loc="left", pad=10)

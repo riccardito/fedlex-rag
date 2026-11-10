@@ -27,16 +27,16 @@ People ask legal questions in their own words — *"Can my boss fire me while I'
 |---|---:|---:|
 | baseline: BM25 keyword search | 34.4 % | 11.5 % |
 | dense search (`multilingual-e5-small`, local) | 63.9 % | 39.3 % |
-| **dense search + rerank by Claude** | **82.0 %** | **82.0 %** |
+| **dense search + rerank by Claude** | **90.2 %** | **90.2 %** |
 
 | The answer, from the reranked top five | |
 |---|---:|
-| cites a right article (of 61 answerable) | **82.0 %** |
-| refuses although answerable | 13.1 % |
+| cites a right article (of 61 answerable) | **90.2 %** |
+| refuses although answerable | 4.9 % |
 | refuses a question the acts do not cover (of 15) | **100 %** |
 | cites an article it was not given | **0** |
 
-The rerank reaches its ceiling exactly. The right article is among the 20 dense candidates for 82.0 % of the questions, and whenever it is there, the rerank puts it first. So every remaining miss is a search miss — and in 8 of those 11 the answer step said the articles did not cover the question instead of guessing.
+The rerank reaches its ceiling exactly. The right article is among the 50 dense candidates for 90.2 % of the questions, and whenever it is there, the rerank puts it first. So every remaining miss is a search miss — and in 3 of those 6 the answer step said the articles did not cover the question instead of guessing.
 
 ## Quickstart
 
@@ -71,7 +71,7 @@ flowchart LR
     A --> B["BM25"]
     A --> D["dense search<br/>multilingual E5, local"]
     Q["question"] --> D
-    D -->|"20 candidates"| R["rerank<br/>Claude"]
+    D -->|"50 candidates"| R["rerank<br/>Claude"]
     R -->|"top 5"| N["answer<br/>cite ids, or refuse"]
     N --> G["guard: drop citations<br/>outside the context"]
     R <-.->|"replay / --live"| C["data/recordings.json"]
@@ -86,7 +86,7 @@ flowchart LR
 
 **The search** embeds each article with `intfloat/multilingual-e5-small` on the CPU; the vectors for the 347 articles and the 76 questions are committed, so the evaluation never loads the model.
 
-**The rerank and the answer** are two calls to `claude-opus-5-5` with a JSON schema each. The rerank orders the 20 candidates by how directly their text answers the question; the answer sees the top five and must cite the ids it relies on or set `answerable: false`. Citations of an article it was not given are dropped and counted; across the 76 questions there were none. Requests go out with server-side fallbacks on: if a safety classifier declines one, the API re-runs it on the model Anthropic recommends for that category. None of the 152 recorded calls needed it.
+**The rerank and the answer** are two calls to `claude-opus-5-5` with a JSON schema each. The rerank orders the 50 candidates by how directly their text answers the question; the answer sees the top five and must cite the ids it relies on or set `answerable: false`. Citations of an article it was not given are dropped and counted; across the 76 questions there were none. Requests go out with server-side fallbacks on: if a safety classifier declines one, the API re-runs it on the model Anthropic recommends for that category. None of the 152 recorded calls needed it.
 
 **Each request is recorded under the SHA-256 of its full content** — model, prompt, schema, the articles. Change any of it and the recording no longer matches, so a stale answer cannot be replayed against a changed question.
 
@@ -102,9 +102,9 @@ The articles are the official consolidated German text from [fedlex](https://www
 
 **The bottleneck is the search, not the model.** Opus ranked the right article first every time it was a candidate. A better reranker would change nothing here; a better candidate list would.
 
-**A small sample told me the wrong thing.** On the first 16 questions, widening the candidate pool from 20 to 30 or to a dense-plus-keyword union changed nothing, and I concluded the misses were vocabulary, not pool size. On all 61 the ceiling rises from 82.0 % at 20 candidates to 86.9 % at 30 and 90.2 % at 50. Both effects are real; only one showed at n = 16.
+**A small sample told me the wrong thing.** On the first 16 questions, widening the candidate pool from 20 to 30 or to a dense-plus-keyword union changed nothing, and I concluded the misses were vocabulary, not pool size. On all 61 the ceiling rises from 82.0 % at 20 candidates to 86.9 % at 30 and 90.2 % at 50, so the rerank now takes 50. Both effects are real; only one showed at n = 16.
 
-**The refusals are the part I trust most.** When the right article was missing, the answer said so in 8 of 11 cases. In the other 3 it answered from a neighbouring article of the same act — a plausible answer to a slightly different question. That is the failure to watch, and the reason the evaluation counts a citation of the wrong article as wrong.
+**The refusals are the part I trust most.** When the right article was missing, the answer said so in 3 of 6 cases. In the other 3 it answered from a neighbouring article of the same act — a plausible answer to a slightly different question. That is the failure to watch, and the reason the evaluation counts a citation of the wrong article as wrong.
 
 **Questions copied from the law flatter keyword search.** A question that reuses the article's words is easy for BM25 — and says nothing about real use. With heading words and copied phrases forbidden, BM25 finds the article in the top five for one question in three.
 
@@ -112,8 +112,7 @@ The articles are the official consolidated German text from [fedlex](https://www
 
 Open:
 
-- A pool of 50 candidates lifts the ceiling to 90.2 %, at the cost of a longer rerank prompt. The next step.
-- Rewriting the question into legal terms before the search, for the misses no pool size reaches.
+- Rewriting the question into legal terms before the search, for the six misses no pool size reached. The next step.
 - 23 of the 347 articles are longer than the model's 512-token window and are embedded truncated.
 - The French and Italian texts, and more acts.
 

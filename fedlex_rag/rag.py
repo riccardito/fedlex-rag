@@ -6,7 +6,7 @@ from dataclasses import dataclass
 from .llm import EFFORT, MODEL
 from .loader import Article
 
-POOL = 20     # dense candidates handed to the rerank
+POOL = 50     # dense candidates for the rerank: 20 reach 82.0 % of the answerable questions, 50 reach 90.2 %
 TOP = 5       # what the answer sees, and what Recall@5 measures
 
 RERANK_SYSTEM = (
