@@ -74,11 +74,24 @@ def _text(el: ET.Element) -> str:
     """The visible text of an element, without footnotes; block boundaries become spaces."""
     parts = [el.text or ""]
     for child in el:
-        if child.tag != AKN + "authorialNote":
+        if child.tag == AKN + "br" and "".join(parts).endswith("-"):
+            parts.append("\0")              # "Adoptions-<br/>urlaub": the break splits one word
+        elif child.tag != AKN + "authorialNote":
             sep = " " if child.tag in _BLOCKS else ""
             parts.append(sep + _text(child) + sep)
         parts.append(child.tail or "")
-    return "".join(parts)
+    return "".join(parts).replace("-\0", "")
+
+
+# a paragraph or list item that a repeal left behind: "3 …", "a. …"
+_GAP = re.compile(r"^(\d+\w*\.?|[a-z]\.)?\s*(…|\.\.\.)$")
+
+
+def _drop_gaps(el: ET.Element) -> None:
+    for parent in el.iter():
+        for child in list(parent):
+            if child.tag in (AKN + "paragraph", AKN + "item") and _GAP.match(_clean(_text(child))):
+                parent.remove(child)
 
 
 def _own_heading(el: ET.Element) -> str:
@@ -106,6 +119,7 @@ def parse_articles(xml: str, source: Source) -> list[Article]:
                 chain.insert(0, h)
             up = parent.get(up)
         heading = _own_heading(art) or (chain[-1] if chain else "")
+        _drop_gaps(art)
         # paragraphs keep their number ("2 Es ist nicht anwendbar auf: a. ...") -- the citation needs it
         body = [_clean(_text(child)) for child in art if child.tag not in (AKN + "num", AKN + "heading")]
         text = " ".join(b for b in body if b)

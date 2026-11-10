@@ -15,9 +15,12 @@ XML = f"""<akomaNtoso {NS}><act><body>
       </authorialNote> einen Monat.</p></content></paragraph>
       <paragraph eId="art_10/para_2"><num>2</num><content><blockList>
       <listIntroduction>Sie gilt für:</listIntroduction>
-      <item><num>a. </num><p>Arbeitnehmer;</p></item><item><num>b. </num><p>Arbeitgeber.</p></item></blockList>
+      <item><num>a. </num><p>Arbeitnehmer;</p></item><item><num>b. </num><p>Arbeitgeber.</p></item>
+      <item><num>c. </num><p>…</p></item></blockList>
+      </content></paragraph>
+      <paragraph eId="art_10/para_3"><num>3</num><content><p> …<authorialNote><p>Aufgehoben</p></authorialNote></p>
       </content></paragraph></article>
-    <article eId="art_10_a"><num><b>Art. 10</b><i>a</i></num><heading>Probezeit</heading>
+    <article eId="art_10_a"><num><b>Art. 10</b><i>a</i></num><heading>Probe-<br/>zeit</heading>
       <paragraph><content><p>Sieben Tage.</p></content></paragraph></article>
     <article eId="art_11"><num><b>Art. 11</b></num>
       <paragraph><content><p>Aufgehoben</p></content></paragraph></article>
