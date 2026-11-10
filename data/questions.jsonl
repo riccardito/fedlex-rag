@@ -1,0 +1,16 @@
+{"id": "q001", "question": "Wie lange muss ich warten, wenn ich nach zwei Wochen im neuen Job wieder aufhören will?", "expected": ["OR Art. 335b"]}
+{"id": "q002", "question": "Mit welcher Frist kann mir mein Chef im dritten Jahr meiner Anstellung kündigen?", "expected": ["OR Art. 335c"]}
+{"id": "q003", "question": "Wie viele Wochen Ferien stehen einem 19-jährigen Angestellten pro Jahr mindestens zu?", "expected": ["OR Art. 329a"]}
+{"id": "q004", "question": "Bekomme ich weiter Lohn, wenn ich mehrere Wochen krank zu Hause bin?", "expected": ["OR Art. 324a"]}
+{"id": "q005", "question": "Muss mein Arbeitgeber mir die zusätzlich geleisteten Stunden mit einem Zuschlag bezahlen?", "expected": ["OR Art. 321c"]}
+{"id": "q006", "question": "Kann ich beim Verlassen der Firma eine schriftliche Beurteilung meiner Arbeit verlangen?", "expected": ["OR Art. 330a"]}
+{"id": "q007", "question": "Darf mir gekündigt werden, während ich schwanger bin?", "expected": ["OR Art. 336c"]}
+{"id": "q008", "question": "Unter welchen Umständen ist eine Entlassung ohne Einhaltung einer Frist erlaubt?", "expected": ["OR Art. 337"]}
+{"id": "q009", "question": "Ich bin neu in die Schweiz gezogen. Bis wann muss ich eine Krankenkasse abschliessen?", "expected": ["KVG Art. 3"]}
+{"id": "q010", "question": "Auf welchen Termin kann ich meine Grundversicherung zu einem günstigeren Anbieter wechseln?", "expected": ["KVG Art. 7"]}
+{"id": "q011", "question": "Wie viel muss ich bei einem Arztbesuch selbst bezahlen, obwohl ich versichert bin?", "expected": ["KVG Art. 64"]}
+{"id": "q012", "question": "Gibt es Unterstützung, wenn ich mir die monatlichen Prämien nicht leisten kann?", "expected": ["KVG Art. 65"]}
+{"id": "q013", "question": "Was gilt als besonders heikle Information über eine Person, zum Beispiel zur Gesundheit?", "expected": ["DSG Art. 5"]}
+{"id": "q014", "question": "Wie finde ich heraus, welche Daten eine Firma über mich gespeichert hat?", "expected": ["DSG Art. 25"]}
+{"id": "q015", "question": "Muss ein Unternehmen ein Datenleck den Behörden melden?", "expected": ["DSG Art. 24"]}
+{"id": "q016", "question": "Darf eine Schweizer Firma Kundendaten an einen Server in den USA schicken?", "expected": ["DSG Art. 16"]}

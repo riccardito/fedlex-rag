@@ -1,0 +1,35 @@
+{
+  "note": "Official enactments of the Swiss Confederation; not protected by copyright (Art. 5 para. 1 let. a URG, SR 231.1). Regenerate with `make fetch`.",
+  "sources": [
+    {
+      "abbr": "DSG",
+      "title": "Bundesgesetz über den Datenschutz",
+      "sr": "235.1",
+      "eli": "https://fedlex.data.admin.ch/eli/cc/2022/491",
+      "applicable_from": "2025-07-07",
+      "file": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2022/491/20250707/de/xml/fedlex-data-admin-ch-eli-cc-2022-491-20250707-de-xml-1.xml",
+      "articles": 77,
+      "retrieved": "2026-11-10"
+    },
+    {
+      "abbr": "OR",
+      "title": "Obligationenrecht -- der Arbeitsvertrag (Art. 319-362)",
+      "sr": "220",
+      "eli": "https://fedlex.data.admin.ch/eli/cc/27/317_321_377",
+      "applicable_from": "2026-10-01",
+      "file": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/27/317_321_377/20261001/de/xml/fedlex-data-admin-ch-eli-cc-27-317_321_377-20261001-de-xml-4.xml",
+      "articles": 138,
+      "retrieved": "2026-11-10"
+    },
+    {
+      "abbr": "KVG",
+      "title": "Bundesgesetz über die Krankenversicherung",
+      "sr": "832.10",
+      "eli": "https://fedlex.data.admin.ch/eli/cc/1995/1328_1328_1328",
+      "applicable_from": "2026-07-01",
+      "file": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1995/1328_1328_1328/20260701/de/xml/fedlex-data-admin-ch-eli-cc-1995-1328_1328_1328-20260701-de-xml-1.xml",
+      "articles": 132,
+      "retrieved": "2026-11-10"
+    }
+  ]
+}
