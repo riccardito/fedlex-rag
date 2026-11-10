@@ -1,6 +1,6 @@
 PYTHON ?= python
 
-.PHONY: install install-embed install-llm fetch eval eval-search record ask search test lint
+.PHONY: install install-embed install-llm fetch eval eval-search record ask chart search test lint
 
 install:
 	$(PYTHON) -m pip install -q -e ".[dev]"
@@ -30,6 +30,10 @@ record:
 # one question end to end: make ask Q="..." (a new question needs --live)
 ask:
 	$(PYTHON) -m fedlex_rag.cli ask "$(Q)" $(LIVE)
+
+# docs/results.png from the evaluation itself (pip install -e '.[chart]')
+chart:
+	$(PYTHON) docs/make_results_chart.py
 
 # a free question needs the model: make install-embed first
 search:
